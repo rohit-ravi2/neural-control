@@ -1,0 +1,1102 @@
+[
+ {
+  "name": "pumpprobe_20210824_104000",
+  "n_frames": 4454,
+  "n_neurons": 114,
+  "n_named": 43,
+  "n_stims": 70,
+  "n_stims_resolved": 58,
+  "n_stims_named": 30,
+  "nan_frac": 0.2425
+ },
+ {
+  "name": "pumpprobe_20210824_114940",
+  "n_frames": 5395,
+  "n_neurons": 136,
+  "n_named": 59,
+  "n_stims": 85,
+  "n_stims_resolved": 71,
+  "n_stims_named": 50,
+  "nan_frac": 0.2494
+ },
+ {
+  "name": "pumpprobe_20210824_144628",
+  "n_frames": 3789,
+  "n_neurons": 132,
+  "n_named": 42,
+  "n_stims": 61,
+  "n_stims_resolved": 44,
+  "n_stims_named": 22,
+  "nan_frac": 0.2646
+ },
+ {
+  "name": "pumpprobe_20210824_161919",
+  "n_frames": 4469,
+  "n_neurons": 155,
+  "n_named": 40,
+  "n_stims": 70,
+  "n_stims_resolved": 58,
+  "n_stims_named": 31,
+  "nan_frac": 0.3697
+ },
+ {
+  "name": "pumpprobe_20210825_123600",
+  "n_frames": 3818,
+  "n_neurons": 149,
+  "n_named": 45,
+  "n_stims": 60,
+  "n_stims_resolved": 54,
+  "n_stims_named": 25,
+  "nan_frac": 0.245
+ },
+ {
+  "name": "pumpprobe_20210825_150349",
+  "n_frames": 3776,
+  "n_neurons": 163,
+  "n_named": 22,
+  "n_stims": 60,
+  "n_stims_resolved": 49,
+  "n_stims_named": 10,
+  "nan_frac": 0.3699
+ },
+ {
+  "name": "pumpprobe_20210827_104408",
+  "n_frames": 5427,
+  "n_neurons": 95,
+  "n_named": 48,
+  "n_stims": 85,
+  "n_stims_resolved": 59,
+  "n_stims_named": 33,
+  "nan_frac": 0.3415
+ },
+ {
+  "name": "pumpprobe_20210827_115857",
+  "n_frames": 4981,
+  "n_neurons": 118,
+  "n_named": 45,
+  "n_stims": 78,
+  "n_stims_resolved": 56,
+  "n_stims_named": 36,
+  "nan_frac": 0.3688
+ },
+ {
+  "name": "pumpprobe_20210827_142226",
+  "n_frames": 4494,
+  "n_neurons": 103,
+  "n_named": 50,
+  "n_stims": 70,
+  "n_stims_resolved": 54,
+  "n_stims_named": 26,
+  "nan_frac": 0.3178
+ },
+ {
+  "name": "pumpprobe_20210830_111646",
+  "n_frames": 3795,
+  "n_neurons": 137,
+  "n_named": 42,
+  "n_stims": 60,
+  "n_stims_resolved": 56,
+  "n_stims_named": 29,
+  "nan_frac": 0.3317
+ },
+ {
+  "name": "pumpprobe_20210830_144155",
+  "n_frames": 3804,
+  "n_neurons": 136,
+  "n_named": 28,
+  "n_stims": 60,
+  "n_stims_resolved": 52,
+  "n_stims_named": 18,
+  "nan_frac": 0.3871
+ },
+ {
+  "name": "pumpprobe_20210902_115146",
+  "n_frames": 3847,
+  "n_neurons": 136,
+  "n_named": 43,
+  "n_stims": 60,
+  "n_stims_resolved": 52,
+  "n_stims_named": 32,
+  "nan_frac": 0.362
+ },
+ {
+  "name": "pumpprobe_20210903_153005",
+  "n_frames": 4147,
+  "n_neurons": 90,
+  "n_named": 50,
+  "n_stims": 65,
+  "n_stims_resolved": 43,
+  "n_stims_named": 31,
+  "nan_frac": 0.5174
+ },
+ {
+  "name": "pumpprobe_20210907_110334",
+  "n_frames": 5093,
+  "n_neurons": 110,
+  "n_named": 64,
+  "n_stims": 80,
+  "n_stims_resolved": 64,
+  "n_stims_named": 47,
+  "nan_frac": 0.3932
+ },
+ {
+  "name": "pumpprobe_20210907_141336",
+  "n_frames": 5102,
+  "n_neurons": 174,
+  "n_named": 60,
+  "n_stims": 80,
+  "n_stims_resolved": 66,
+  "n_stims_named": 43,
+  "nan_frac": 0.553
+ },
+ {
+  "name": "pumpprobe_20210909_102637",
+  "n_frames": 4519,
+  "n_neurons": 281,
+  "n_named": 33,
+  "n_stims": 70,
+  "n_stims_resolved": 56,
+  "n_stims_named": 24,
+  "nan_frac": 0.3716
+ },
+ {
+  "name": "pumpprobe_20210913_105324",
+  "n_frames": 4452,
+  "n_neurons": 115,
+  "n_named": 26,
+  "n_stims": 70,
+  "n_stims_resolved": 54,
+  "n_stims_named": 10,
+  "nan_frac": 0.3767
+ },
+ {
+  "name": "pumpprobe_20210913_161934",
+  "n_frames": 4403,
+  "n_neurons": 141,
+  "n_named": 33,
+  "n_stims": 70,
+  "n_stims_resolved": 61,
+  "n_stims_named": 31,
+  "nan_frac": 0.338
+ },
+ {
+  "name": "pumpprobe_20210917_104948",
+  "n_frames": 5099,
+  "n_neurons": 190,
+  "n_named": 44,
+  "n_stims": 80,
+  "n_stims_resolved": 61,
+  "n_stims_named": 30,
+  "nan_frac": 0.5158
+ },
+ {
+  "name": "pumpprobe_20210928_105933",
+  "n_frames": 5047,
+  "n_neurons": 158,
+  "n_named": 40,
+  "n_stims": 80,
+  "n_stims_resolved": 63,
+  "n_stims_named": 30,
+  "nan_frac": 0.3679
+ },
+ {
+  "name": "pumpprobe_20210928_134411",
+  "n_frames": 4726,
+  "n_neurons": 169,
+  "n_named": 32,
+  "n_stims": 75,
+  "n_stims_resolved": 57,
+  "n_stims_named": 21,
+  "nan_frac": 0.3848
+ },
+ {
+  "name": "pumpprobe_20211022_140822",
+  "n_frames": 5056,
+  "n_neurons": 103,
+  "n_named": 39,
+  "n_stims": 80,
+  "n_stims_resolved": 61,
+  "n_stims_named": 34,
+  "nan_frac": 0.3915
+ },
+ {
+  "name": "pumpprobe_20211102_101248",
+  "n_frames": 393,
+  "n_neurons": 105,
+  "n_named": 44,
+  "n_stims": 3,
+  "n_stims_resolved": 0,
+  "n_stims_named": 0,
+  "nan_frac": 0.294
+ },
+ {
+  "name": "pumpprobe_20211102_152524",
+  "n_frames": 416,
+  "n_neurons": 109,
+  "n_named": 47,
+  "n_stims": 3,
+  "n_stims_resolved": 3,
+  "n_stims_named": 3,
+  "nan_frac": 0.2382
+ },
+ {
+  "name": "pumpprobe_20211104_163944",
+  "n_frames": 4663,
+  "n_neurons": 111,
+  "n_named": 70,
+  "n_stims": 73,
+  "n_stims_resolved": 60,
+  "n_stims_named": 53,
+  "nan_frac": 0.3766
+ },
+ {
+  "name": "pumpprobe_20211128_101826",
+  "n_frames": 4469,
+  "n_neurons": 129,
+  "n_named": 51,
+  "n_stims": 70,
+  "n_stims_resolved": 47,
+  "n_stims_named": 28,
+  "nan_frac": 0.4675
+ },
+ {
+  "name": "pumpprobe_20211128_112504",
+  "n_frames": 4469,
+  "n_neurons": 155,
+  "n_named": 61,
+  "n_stims": 70,
+  "n_stims_resolved": 35,
+  "n_stims_named": 21,
+  "nan_frac": 0.4702
+ },
+ {
+  "name": "pumpprobe_20211128_133449",
+  "n_frames": 5086,
+  "n_neurons": 139,
+  "n_named": 79,
+  "n_stims": 80,
+  "n_stims_resolved": 62,
+  "n_stims_named": 49,
+  "nan_frac": 0.3508
+ },
+ {
+  "name": "pumpprobe_20211128_154756",
+  "n_frames": 5169,
+  "n_neurons": 165,
+  "n_named": 78,
+  "n_stims": 80,
+  "n_stims_resolved": 58,
+  "n_stims_named": 49,
+  "nan_frac": 0.4238
+ },
+ {
+  "name": "pumpprobe_20211128_165637",
+  "n_frames": 5848,
+  "n_neurons": 135,
+  "n_named": 55,
+  "n_stims": 92,
+  "n_stims_resolved": 42,
+  "n_stims_named": 32,
+  "nan_frac": 0.4822
+ },
+ {
+  "name": "pumpprobe_20211130_151402",
+  "n_frames": 5078,
+  "n_neurons": 128,
+  "n_named": 69,
+  "n_stims": 80,
+  "n_stims_resolved": 48,
+  "n_stims_named": 39,
+  "nan_frac": 0.4
+ },
+ {
+  "name": "pumpprobe_20211203_164020",
+  "n_frames": 4408,
+  "n_neurons": 149,
+  "n_named": 68,
+  "n_stims": 60,
+  "n_stims_resolved": 40,
+  "n_stims_named": 29,
+  "nan_frac": 0.3756
+ },
+ {
+  "name": "pumpprobe_20211206_110909",
+  "n_frames": 4840,
+  "n_neurons": 148,
+  "n_named": 75,
+  "n_stims": 75,
+  "n_stims_resolved": 42,
+  "n_stims_named": 30,
+  "nan_frac": 0.3674
+ },
+ {
+  "name": "pumpprobe_20211206_165435",
+  "n_frames": 4619,
+  "n_neurons": 88,
+  "n_named": 60,
+  "n_stims": 70,
+  "n_stims_resolved": 45,
+  "n_stims_named": 33,
+  "nan_frac": 0.3354
+ },
+ {
+  "name": "pumpprobe_20220113_153037",
+  "n_frames": 4209,
+  "n_neurons": 91,
+  "n_named": 58,
+  "n_stims": 65,
+  "n_stims_resolved": 27,
+  "n_stims_named": 19,
+  "nan_frac": 0.363
+ },
+ {
+  "name": "pumpprobe_20220120_104715",
+  "n_frames": 3823,
+  "n_neurons": 128,
+  "n_named": 66,
+  "n_stims": 60,
+  "n_stims_resolved": 34,
+  "n_stims_named": 31,
+  "nan_frac": 0.3865
+ },
+ {
+  "name": "pumpprobe_20220120_135951",
+  "n_frames": 2733,
+  "n_neurons": 95,
+  "n_named": 39,
+  "n_stims": 43,
+  "n_stims_resolved": 33,
+  "n_stims_named": 13,
+  "nan_frac": 0.2218
+ },
+ {
+  "name": "pumpprobe_20220120_150453",
+  "n_frames": 760,
+  "n_neurons": 80,
+  "n_named": 53,
+  "n_stims": 5,
+  "n_stims_resolved": 0,
+  "n_stims_named": 0,
+  "nan_frac": 0.1745
+ },
+ {
+  "name": "pumpprobe_20220120_151357",
+  "n_frames": 4161,
+  "n_neurons": 97,
+  "n_named": 52,
+  "n_stims": 65,
+  "n_stims_resolved": 47,
+  "n_stims_named": 36,
+  "nan_frac": 0.4193
+ },
+ {
+  "name": "pumpprobe_20220124_163157",
+  "n_frames": 3805,
+  "n_neurons": 110,
+  "n_named": 69,
+  "n_stims": 60,
+  "n_stims_resolved": 45,
+  "n_stims_named": 36,
+  "nan_frac": 0.3233
+ },
+ {
+  "name": "pumpprobe_20220126_153426",
+  "n_frames": 3869,
+  "n_neurons": 101,
+  "n_named": 53,
+  "n_stims": 60,
+  "n_stims_resolved": 47,
+  "n_stims_named": 28,
+  "nan_frac": 0.3747
+ },
+ {
+  "name": "pumpprobe_20220128_140323",
+  "n_frames": 3872,
+  "n_neurons": 97,
+  "n_named": 51,
+  "n_stims": 60,
+  "n_stims_resolved": 44,
+  "n_stims_named": 28,
+  "nan_frac": 0.3172
+ },
+ {
+  "name": "pumpprobe_20220203_165151",
+  "n_frames": 3945,
+  "n_neurons": 118,
+  "n_named": 73,
+  "n_stims": 60,
+  "n_stims_resolved": 37,
+  "n_stims_named": 31,
+  "nan_frac": 0.3294
+ },
+ {
+  "name": "pumpprobe_20220208_150446",
+  "n_frames": 4048,
+  "n_neurons": 110,
+  "n_named": 59,
+  "n_stims": 60,
+  "n_stims_resolved": 44,
+  "n_stims_named": 37,
+  "nan_frac": 0.2835
+ },
+ {
+  "name": "pumpprobe_20220208_171724",
+  "n_frames": 4083,
+  "n_neurons": 120,
+  "n_named": 53,
+  "n_stims": 60,
+  "n_stims_resolved": 37,
+  "n_stims_named": 25,
+  "nan_frac": 0.3037
+ },
+ {
+  "name": "pumpprobe_20220322_101222",
+  "n_frames": 3838,
+  "n_neurons": 86,
+  "n_named": 43,
+  "n_stims": 60,
+  "n_stims_resolved": 52,
+  "n_stims_named": 31,
+  "nan_frac": 0.3219
+ },
+ {
+  "name": "pumpprobe_20220330_110253",
+  "n_frames": 3913,
+  "n_neurons": 95,
+  "n_named": 63,
+  "n_stims": 64,
+  "n_stims_resolved": 29,
+  "n_stims_named": 24,
+  "nan_frac": 0.3069
+ },
+ {
+  "name": "pumpprobe_20220330_123606",
+  "n_frames": 4139,
+  "n_neurons": 90,
+  "n_named": 55,
+  "n_stims": 64,
+  "n_stims_resolved": 60,
+  "n_stims_named": 42,
+  "nan_frac": 0.315
+ },
+ {
+  "name": "pumpprobe_20220330_164449",
+  "n_frames": 4411,
+  "n_neurons": 102,
+  "n_named": 46,
+  "n_stims": 69,
+  "n_stims_resolved": 51,
+  "n_stims_named": 28,
+  "nan_frac": 0.3982
+ },
+ {
+  "name": "pumpprobe_20220331_114306",
+  "n_frames": 4535,
+  "n_neurons": 95,
+  "n_named": 43,
+  "n_stims": 70,
+  "n_stims_resolved": 54,
+  "n_stims_named": 26,
+  "nan_frac": 0.2684
+ },
+ {
+  "name": "pumpprobe_20220331_142924",
+  "n_frames": 4409,
+  "n_neurons": 108,
+  "n_named": 55,
+  "n_stims": 69,
+  "n_stims_resolved": 42,
+  "n_stims_named": 28,
+  "nan_frac": 0.4175
+ },
+ {
+  "name": "pumpprobe_20220331_153103",
+  "n_frames": 3853,
+  "n_neurons": 132,
+  "n_named": 61,
+  "n_stims": 60,
+  "n_stims_resolved": 50,
+  "n_stims_named": 41,
+  "nan_frac": 0.4298
+ },
+ {
+  "name": "pumpprobe_20220405_100245",
+  "n_frames": 4215,
+  "n_neurons": 99,
+  "n_named": 50,
+  "n_stims": 65,
+  "n_stims_resolved": 49,
+  "n_stims_named": 28,
+  "nan_frac": 0.3704
+ },
+ {
+  "name": "pumpprobe_20220405_110704",
+  "n_frames": 4170,
+  "n_neurons": 127,
+  "n_named": 63,
+  "n_stims": 65,
+  "n_stims_resolved": 58,
+  "n_stims_named": 40,
+  "nan_frac": 0.3771
+ },
+ {
+  "name": "pumpprobe_20220405_125435",
+  "n_frames": 4176,
+  "n_neurons": 100,
+  "n_named": 57,
+  "n_stims": 65,
+  "n_stims_resolved": 49,
+  "n_stims_named": 33,
+  "nan_frac": 0.3124
+ },
+ {
+  "name": "pumpprobe_20220405_143326",
+  "n_frames": 3329,
+  "n_neurons": 90,
+  "n_named": 62,
+  "n_stims": 50,
+  "n_stims_resolved": 37,
+  "n_stims_named": 31,
+  "nan_frac": 0.3345
+ },
+ {
+  "name": "pumpprobe_20220929_143243",
+  "n_frames": 893,
+  "n_neurons": 90,
+  "n_named": 39,
+  "n_stims": 7,
+  "n_stims_resolved": 7,
+  "n_stims_named": 7,
+  "nan_frac": 0.3085
+ },
+ {
+  "name": "pumpprobe_20220929_151408",
+  "n_frames": 1175,
+  "n_neurons": 99,
+  "n_named": 46,
+  "n_stims": 13,
+  "n_stims_resolved": 13,
+  "n_stims_named": 13,
+  "nan_frac": 0.2336
+ },
+ {
+  "name": "pumpprobe_20221010_165439",
+  "n_frames": 678,
+  "n_neurons": 88,
+  "n_named": 15,
+  "n_stims": 4,
+  "n_stims_resolved": 4,
+  "n_stims_named": 4,
+  "nan_frac": 0.1723
+ },
+ {
+  "name": "pumpprobe_20221010_173036",
+  "n_frames": 830,
+  "n_neurons": 114,
+  "n_named": 38,
+  "n_stims": 5,
+  "n_stims_resolved": 5,
+  "n_stims_named": 5,
+  "nan_frac": 0.2216
+ },
+ {
+  "name": "pumpprobe_20221011_151353",
+  "n_frames": 939,
+  "n_neurons": 85,
+  "n_named": 22,
+  "n_stims": 6,
+  "n_stims_resolved": 6,
+  "n_stims_named": 5,
+  "nan_frac": 0.2041
+ },
+ {
+  "name": "pumpprobe_20221011_163802",
+  "n_frames": 1240,
+  "n_neurons": 87,
+  "n_named": 26,
+  "n_stims": 8,
+  "n_stims_resolved": 8,
+  "n_stims_named": 8,
+  "nan_frac": 0.2531
+ },
+ {
+  "name": "pumpprobe_20221219_150841",
+  "n_frames": 700,
+  "n_neurons": 83,
+  "n_named": 38,
+  "n_stims": 4,
+  "n_stims_resolved": 4,
+  "n_stims_named": 4,
+  "nan_frac": 0.2246
+ },
+ {
+  "name": "pumpprobe_20230117_152438",
+  "n_frames": 1629,
+  "n_neurons": 84,
+  "n_named": 36,
+  "n_stims": 11,
+  "n_stims_resolved": 11,
+  "n_stims_named": 4,
+  "nan_frac": 0.2233
+ },
+ {
+  "name": "pumpprobe_20230125_114648",
+  "n_frames": 1332,
+  "n_neurons": 102,
+  "n_named": 55,
+  "n_stims": 13,
+  "n_stims_resolved": 9,
+  "n_stims_named": 7,
+  "nan_frac": 0.2057
+ },
+ {
+  "name": "pumpprobe_20230215_150553",
+  "n_frames": 1798,
+  "n_neurons": 132,
+  "n_named": 86,
+  "n_stims": 20,
+  "n_stims_resolved": 20,
+  "n_stims_named": 16,
+  "nan_frac": 0.2979
+ },
+ {
+  "name": "pumpprobe_20230222_165630",
+  "n_frames": 916,
+  "n_neurons": 114,
+  "n_named": 71,
+  "n_stims": 6,
+  "n_stims_resolved": 6,
+  "n_stims_named": 2,
+  "nan_frac": 0.2785
+ },
+ {
+  "name": "pumpprobe_20230228_110846",
+  "n_frames": 1405,
+  "n_neurons": 106,
+  "n_named": 70,
+  "n_stims": 20,
+  "n_stims_resolved": 19,
+  "n_stims_named": 13,
+  "nan_frac": 0.3003
+ },
+ {
+  "name": "pumpprobe_20230228_151210",
+  "n_frames": 3055,
+  "n_neurons": 119,
+  "n_named": 88,
+  "n_stims": 41,
+  "n_stims_resolved": 38,
+  "n_stims_named": 31,
+  "nan_frac": 0.2641
+ },
+ {
+  "name": "pumpprobe_20230302_112654",
+  "n_frames": 2922,
+  "n_neurons": 109,
+  "n_named": 61,
+  "n_stims": 37,
+  "n_stims_resolved": 34,
+  "n_stims_named": 24,
+  "nan_frac": 0.2716
+ },
+ {
+  "name": "pumpprobe_20230302_151318",
+  "n_frames": 4029,
+  "n_neurons": 142,
+  "n_named": 100,
+  "n_stims": 56,
+  "n_stims_resolved": 49,
+  "n_stims_named": 43,
+  "nan_frac": 0.3085
+ },
+ {
+  "name": "pumpprobe_20230302_172145",
+  "n_frames": 4007,
+  "n_neurons": 157,
+  "n_named": 90,
+  "n_stims": 54,
+  "n_stims_resolved": 45,
+  "n_stims_named": 31,
+  "nan_frac": 0.3324
+ },
+ {
+  "name": "pumpprobe_20230304_102932",
+  "n_frames": 1989,
+  "n_neurons": 113,
+  "n_named": 91,
+  "n_stims": 28,
+  "n_stims_resolved": 25,
+  "n_stims_named": 21,
+  "nan_frac": 0.2676
+ },
+ {
+  "name": "pumpprobe_20230304_112842",
+  "n_frames": 3065,
+  "n_neurons": 121,
+  "n_named": 83,
+  "n_stims": 45,
+  "n_stims_resolved": 40,
+  "n_stims_named": 29,
+  "nan_frac": 0.2679
+ },
+ {
+  "name": "pumpprobe_20230304_133215",
+  "n_frames": 2852,
+  "n_neurons": 106,
+  "n_named": 75,
+  "n_stims": 41,
+  "n_stims_resolved": 40,
+  "n_stims_named": 35,
+  "nan_frac": 0.2663
+ },
+ {
+  "name": "pumpprobe_20230304_144313",
+  "n_frames": 3135,
+  "n_neurons": 132,
+  "n_named": 74,
+  "n_stims": 45,
+  "n_stims_resolved": 40,
+  "n_stims_named": 28,
+  "nan_frac": 0.3662
+ },
+ {
+  "name": "pumpprobe_20230309_112206",
+  "n_frames": 3350,
+  "n_neurons": 138,
+  "n_named": 90,
+  "n_stims": 48,
+  "n_stims_resolved": 41,
+  "n_stims_named": 39,
+  "nan_frac": 0.345
+ },
+ {
+  "name": "pumpprobe_20230309_122120",
+  "n_frames": 3149,
+  "n_neurons": 132,
+  "n_named": 82,
+  "n_stims": 45,
+  "n_stims_resolved": 38,
+  "n_stims_named": 31,
+  "nan_frac": 0.3047
+ },
+ {
+  "name": "pumpprobe_20230309_143050",
+  "n_frames": 3369,
+  "n_neurons": 147,
+  "n_named": 82,
+  "n_stims": 49,
+  "n_stims_resolved": 44,
+  "n_stims_named": 36,
+  "nan_frac": 0.3701
+ },
+ {
+  "name": "pumpprobe_20230309_153504",
+  "n_frames": 3412,
+  "n_neurons": 174,
+  "n_named": 89,
+  "n_stims": 51,
+  "n_stims_resolved": 43,
+  "n_stims_named": 36,
+  "nan_frac": 0.4588
+ },
+ {
+  "name": "pumpprobe_20230309_180300",
+  "n_frames": 2505,
+  "n_neurons": 154,
+  "n_named": 101,
+  "n_stims": 36,
+  "n_stims_resolved": 35,
+  "n_stims_named": 29,
+  "nan_frac": 0.3502
+ },
+ {
+  "name": "pumpprobe_20230314_104728",
+  "n_frames": 2617,
+  "n_neurons": 167,
+  "n_named": 92,
+  "n_stims": 38,
+  "n_stims_resolved": 37,
+  "n_stims_named": 35,
+  "nan_frac": 0.3903
+ },
+ {
+  "name": "pumpprobe_20230314_115358",
+  "n_frames": 2891,
+  "n_neurons": 162,
+  "n_named": 100,
+  "n_stims": 42,
+  "n_stims_resolved": 38,
+  "n_stims_named": 32,
+  "nan_frac": 0.2986
+ },
+ {
+  "name": "pumpprobe_20230314_132310",
+  "n_frames": 1601,
+  "n_neurons": 140,
+  "n_named": 86,
+  "n_stims": 21,
+  "n_stims_resolved": 20,
+  "n_stims_named": 10,
+  "nan_frac": 0.307
+ },
+ {
+  "name": "pumpprobe_20230314_142850",
+  "n_frames": 3333,
+  "n_neurons": 143,
+  "n_named": 76,
+  "n_stims": 49,
+  "n_stims_resolved": 43,
+  "n_stims_named": 28,
+  "nan_frac": 0.3307
+ },
+ {
+  "name": "pumpprobe_20230314_154307",
+  "n_frames": 3164,
+  "n_neurons": 165,
+  "n_named": 91,
+  "n_stims": 45,
+  "n_stims_resolved": 42,
+  "n_stims_named": 39,
+  "nan_frac": 0.434
+ },
+ {
+  "name": "pumpprobe_20230314_164209",
+  "n_frames": 3293,
+  "n_neurons": 129,
+  "n_named": 94,
+  "n_stims": 47,
+  "n_stims_resolved": 44,
+  "n_stims_named": 39,
+  "nan_frac": 0.3602
+ },
+ {
+  "name": "pumpprobe_20230315_105655",
+  "n_frames": 3176,
+  "n_neurons": 135,
+  "n_named": 100,
+  "n_stims": 46,
+  "n_stims_resolved": 44,
+  "n_stims_named": 40,
+  "nan_frac": 0.2725
+ },
+ {
+  "name": "pumpprobe_20230315_122224",
+  "n_frames": 2783,
+  "n_neurons": 155,
+  "n_named": 96,
+  "n_stims": 40,
+  "n_stims_resolved": 39,
+  "n_stims_named": 32,
+  "nan_frac": 0.3287
+ },
+ {
+  "name": "pumpprobe_20230315_132059",
+  "n_frames": 3109,
+  "n_neurons": 151,
+  "n_named": 98,
+  "n_stims": 45,
+  "n_stims_resolved": 44,
+  "n_stims_named": 40,
+  "nan_frac": 0.323
+ },
+ {
+  "name": "pumpprobe_20230315_141835",
+  "n_frames": 3144,
+  "n_neurons": 109,
+  "n_named": 79,
+  "n_stims": 45,
+  "n_stims_resolved": 42,
+  "n_stims_named": 35,
+  "nan_frac": 0.2893
+ },
+ {
+  "name": "pumpprobe_20230317_124858",
+  "n_frames": 3590,
+  "n_neurons": 122,
+  "n_named": 86,
+  "n_stims": 43,
+  "n_stims_resolved": 38,
+  "n_stims_named": 33,
+  "nan_frac": 0.2838
+ },
+ {
+  "name": "pumpprobe_20230317_174524",
+  "n_frames": 3195,
+  "n_neurons": 119,
+  "n_named": 90,
+  "n_stims": 41,
+  "n_stims_resolved": 36,
+  "n_stims_named": 32,
+  "nan_frac": 0.2857
+ },
+ {
+  "name": "pumpprobe_20230318_115913",
+  "n_frames": 3316,
+  "n_neurons": 149,
+  "n_named": 77,
+  "n_stims": 49,
+  "n_stims_resolved": 47,
+  "n_stims_named": 35,
+  "nan_frac": 0.4046
+ },
+ {
+  "name": "pumpprobe_20230318_132720",
+  "n_frames": 3355,
+  "n_neurons": 119,
+  "n_named": 75,
+  "n_stims": 46,
+  "n_stims_resolved": 43,
+  "n_stims_named": 36,
+  "nan_frac": 0.3185
+ },
+ {
+  "name": "pumpprobe_20230318_144657",
+  "n_frames": 3320,
+  "n_neurons": 111,
+  "n_named": 89,
+  "n_stims": 48,
+  "n_stims_resolved": 39,
+  "n_stims_named": 37,
+  "nan_frac": 0.257
+ },
+ {
+  "name": "pumpprobe_20230318_155217",
+  "n_frames": 3242,
+  "n_neurons": 209,
+  "n_named": 93,
+  "n_stims": 48,
+  "n_stims_resolved": 46,
+  "n_stims_named": 39,
+  "nan_frac": 0.5174
+ },
+ {
+  "name": "pumpprobe_20230318_165159",
+  "n_frames": 2754,
+  "n_neurons": 140,
+  "n_named": 82,
+  "n_stims": 40,
+  "n_stims_resolved": 36,
+  "n_stims_named": 29,
+  "nan_frac": 0.3416
+ },
+ {
+  "name": "pumpprobe_20230319_091815",
+  "n_frames": 3743,
+  "n_neurons": 150,
+  "n_named": 93,
+  "n_stims": 55,
+  "n_stims_resolved": 52,
+  "n_stims_named": 41,
+  "nan_frac": 0.3331
+ },
+ {
+  "name": "pumpprobe_20230319_102409",
+  "n_frames": 3687,
+  "n_neurons": 147,
+  "n_named": 96,
+  "n_stims": 52,
+  "n_stims_resolved": 47,
+  "n_stims_named": 39,
+  "nan_frac": 0.3013
+ },
+ {
+  "name": "pumpprobe_20230319_114117",
+  "n_frames": 3426,
+  "n_neurons": 210,
+  "n_named": 92,
+  "n_stims": 50,
+  "n_stims_resolved": 45,
+  "n_stims_named": 32,
+  "nan_frac": 0.5079
+ },
+ {
+  "name": "pumpprobe_20230319_131328",
+  "n_frames": 3366,
+  "n_neurons": 162,
+  "n_named": 90,
+  "n_stims": 50,
+  "n_stims_resolved": 46,
+  "n_stims_named": 40,
+  "nan_frac": 0.3977
+ },
+ {
+  "name": "pumpprobe_20230319_141756",
+  "n_frames": 3998,
+  "n_neurons": 130,
+  "n_named": 100,
+  "n_stims": 59,
+  "n_stims_resolved": 54,
+  "n_stims_named": 49,
+  "nan_frac": 0.2929
+ },
+ {
+  "name": "pumpprobe_20230321_112506",
+  "n_frames": 4010,
+  "n_neurons": 123,
+  "n_named": 94,
+  "n_stims": 53,
+  "n_stims_resolved": 40,
+  "n_stims_named": 33,
+  "nan_frac": 0.3013
+ },
+ {
+  "name": "pumpprobe_20230321_140421",
+  "n_frames": 775,
+  "n_neurons": 114,
+  "n_named": 33,
+  "n_stims": 8,
+  "n_stims_resolved": 7,
+  "n_stims_named": 7,
+  "nan_frac": 0.1887
+ },
+ {
+  "name": "pumpprobe_20230321_154619",
+  "n_frames": 3701,
+  "n_neurons": 141,
+  "n_named": 85,
+  "n_stims": 46,
+  "n_stims_resolved": 38,
+  "n_stims_named": 30,
+  "nan_frac": 0.379
+ },
+ {
+  "name": "pumpprobe_20230323_112405",
+  "n_frames": 4482,
+  "n_neurons": 113,
+  "n_named": 78,
+  "n_stims": 55,
+  "n_stims_resolved": 45,
+  "n_stims_named": 40,
+  "nan_frac": 0.3422
+ },
+ {
+  "name": "pumpprobe_20230323_123647",
+  "n_frames": 2701,
+  "n_neurons": 104,
+  "n_named": 70,
+  "n_stims": 33,
+  "n_stims_resolved": 27,
+  "n_stims_named": 23,
+  "nan_frac": 0.3236
+ },
+ {
+  "name": "pumpprobe_20230324_153349",
+  "n_frames": 4112,
+  "n_neurons": 149,
+  "n_named": 83,
+  "n_stims": 54,
+  "n_stims_resolved": 46,
+  "n_stims_named": 41,
+  "nan_frac": 0.364
+ },
+ {
+  "name": "pumpprobe_20230401_190627",
+  "n_frames": 4073,
+  "n_neurons": 140,
+  "n_named": 72,
+  "n_stims": 53,
+  "n_stims_resolved": 48,
+  "n_stims_named": 43,
+  "nan_frac": 0.3876
+ }
+]

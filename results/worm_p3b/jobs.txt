@@ -1,0 +1,40 @@
+M3h_f0_s0 --scheme M3 --prior cengen --holdout-fold 0 --seed 0
+Mch_f0_s0 --scheme M3 --prior connectome --holdout-fold 0 --seed 0
+Mbh_f0_s0 --scheme M3 --prior both --holdout-fold 0 --seed 0
+M1h_f0_s0 --scheme M1 --holdout-fold 0 --seed 0 --n-cal
+M3h_f1_s0 --scheme M3 --prior cengen --holdout-fold 1 --seed 0
+Mch_f1_s0 --scheme M3 --prior connectome --holdout-fold 1 --seed 0
+Mbh_f1_s0 --scheme M3 --prior both --holdout-fold 1 --seed 0
+M1h_f1_s0 --scheme M1 --holdout-fold 1 --seed 0 --n-cal
+M3h_f2_s0 --scheme M3 --prior cengen --holdout-fold 2 --seed 0
+Mch_f2_s0 --scheme M3 --prior connectome --holdout-fold 2 --seed 0
+Mbh_f2_s0 --scheme M3 --prior both --holdout-fold 2 --seed 0
+M1h_f2_s0 --scheme M1 --holdout-fold 2 --seed 0 --n-cal
+M3h_f3_s0 --scheme M3 --prior cengen --holdout-fold 3 --seed 0
+Mch_f3_s0 --scheme M3 --prior connectome --holdout-fold 3 --seed 0
+Mbh_f3_s0 --scheme M3 --prior both --holdout-fold 3 --seed 0
+M1h_f3_s0 --scheme M1 --holdout-fold 3 --seed 0 --n-cal
+M3h_f4_s0 --scheme M3 --prior cengen --holdout-fold 4 --seed 0
+Mch_f4_s0 --scheme M3 --prior connectome --holdout-fold 4 --seed 0
+Mbh_f4_s0 --scheme M3 --prior both --holdout-fold 4 --seed 0
+M1h_f4_s0 --scheme M1 --holdout-fold 4 --seed 0 --n-cal
+M3h_f0_s1 --scheme M3 --prior cengen --holdout-fold 0 --seed 1
+Mch_f0_s1 --scheme M3 --prior connectome --holdout-fold 0 --seed 1
+Mbh_f0_s1 --scheme M3 --prior both --holdout-fold 0 --seed 1
+M1h_f0_s1 --scheme M1 --holdout-fold 0 --seed 1 --n-cal
+M3h_f1_s1 --scheme M3 --prior cengen --holdout-fold 1 --seed 1
+Mch_f1_s1 --scheme M3 --prior connectome --holdout-fold 1 --seed 1
+Mbh_f1_s1 --scheme M3 --prior both --holdout-fold 1 --seed 1
+M1h_f1_s1 --scheme M1 --holdout-fold 1 --seed 1 --n-cal
+M3h_f2_s1 --scheme M3 --prior cengen --holdout-fold 2 --seed 1
+Mch_f2_s1 --scheme M3 --prior connectome --holdout-fold 2 --seed 1
+Mbh_f2_s1 --scheme M3 --prior both --holdout-fold 2 --seed 1
+M1h_f2_s1 --scheme M1 --holdout-fold 2 --seed 1 --n-cal
+M3h_f3_s1 --scheme M3 --prior cengen --holdout-fold 3 --seed 1
+Mch_f3_s1 --scheme M3 --prior connectome --holdout-fold 3 --seed 1
+Mbh_f3_s1 --scheme M3 --prior both --holdout-fold 3 --seed 1
+M1h_f3_s1 --scheme M1 --holdout-fold 3 --seed 1 --n-cal
+M3h_f4_s1 --scheme M3 --prior cengen --holdout-fold 4 --seed 1
+Mch_f4_s1 --scheme M3 --prior connectome --holdout-fold 4 --seed 1
+Mbh_f4_s1 --scheme M3 --prior both --holdout-fold 4 --seed 1
+M1h_f4_s1 --scheme M1 --holdout-fold 4 --seed 1 --n-cal

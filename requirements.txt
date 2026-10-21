@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+torch
+h5py
+statsmodels
+pyyaml
+wormneuroatlas

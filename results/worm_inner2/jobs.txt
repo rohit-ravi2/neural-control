@@ -1,0 +1,10 @@
+I2_gru_neuron_l0.03_h64 --scheme M1 --level neuron --core gru --openloop --resp-loss 0.03 --hidden 64 --inner --seed 0 --n-cal
+I2_gru_neuron_l0.03_h128 --scheme M1 --level neuron --core gru --openloop --resp-loss 0.03 --hidden 128 --inner --seed 0 --n-cal
+I2_gru_neuron_l0.3_h64 --scheme M1 --level neuron --core gru --openloop --resp-loss 0.3 --hidden 64 --inner --seed 0 --n-cal
+I2_gru_neuron_l0.3_h128 --scheme M1 --level neuron --core gru --openloop --resp-loss 0.3 --hidden 128 --inner --seed 0 --n-cal
+I2_gru_neuron_l0.1_h128 --scheme M1 --level neuron --core gru --openloop --resp-loss 0.1 --hidden 128 --inner --seed 0 --n-cal
+I2_gru_class_l0.03_h64 --scheme M1 --level class --core gru --openloop --resp-loss 0.03 --hidden 64 --inner --seed 0 --n-cal
+I2_gru_class_l0.03_h128 --scheme M1 --level class --core gru --openloop --resp-loss 0.03 --hidden 128 --inner --seed 0 --n-cal
+I2_gru_class_l0.3_h64 --scheme M1 --level class --core gru --openloop --resp-loss 0.3 --hidden 64 --inner --seed 0 --n-cal
+I2_gru_class_l0.3_h128 --scheme M1 --level class --core gru --openloop --resp-loss 0.3 --hidden 128 --inner --seed 0 --n-cal
+I2_gru_class_l0.1_h128 --scheme M1 --level class --core gru --openloop --resp-loss 0.1 --hidden 128 --inner --seed 0 --n-cal

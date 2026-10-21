@@ -1,0 +1,3 @@
+FAshuf_s0 --scheme M2 --level class --core gru --openloop --resp-loss 0.03 --hidden 128 --seed 0 --n-cal --score-auth
+FAshuf_s1 --scheme M2 --level class --core gru --openloop --resp-loss 0.03 --hidden 128 --seed 1 --n-cal --score-auth
+FAshuf_s2 --scheme M2 --level class --core gru --openloop --resp-loss 0.03 --hidden 128 --seed 2 --n-cal --score-auth

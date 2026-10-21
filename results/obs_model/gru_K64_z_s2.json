@@ -1,0 +1,45 @@
+{
+ "tag": "gru_K64_z_s2",
+ "args": {
+  "seed": 2,
+  "core": "gru",
+  "hidden": 64,
+  "steps": 4000,
+  "durs": [
+   4,
+   1,
+   10
+  ],
+  "amp": 1.0,
+  "shuffle": false,
+  "zscore_randi": true
+ },
+ "n_keys": 159,
+ "train_loss_last500": 0.6062379380464554,
+ "scores": {
+  "test_dur4": {
+   "r": 0.025348716398970746,
+   "n_events": 806
+  },
+  "test_dur1": {
+   "r": 0.030145632535732735,
+   "n_events": 806
+  },
+  "test_dur10": {
+   "r": 0.03810093986107163,
+   "n_events": 806
+  },
+  "all_dur4": {
+   "r": 0.03710142940126885,
+   "n_events": 2776
+  },
+  "all_dur1": {
+   "r": 0.0368242477191181,
+   "n_events": 2776
+  },
+  "all_dur10": {
+   "r": 0.050324443134643265,
+   "n_events": 2776
+  }
+ }
+}

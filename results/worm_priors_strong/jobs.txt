@@ -1,0 +1,9 @@
+SP_connectome_s0 --scheme M3 --prior connectome --core gru --openloop --resp-loss 0.03 --hidden 128 --seed 0 --n-cal --score-auth
+SP_cengen_s0 --scheme M3 --prior cengen --core gru --openloop --resp-loss 0.03 --hidden 128 --seed 0 --n-cal --score-auth
+SP_shufcengen_s0 --scheme M4 --prior cengen --core gru --openloop --resp-loss 0.03 --hidden 128 --seed 0 --n-cal --score-auth
+SP_connectome_s1 --scheme M3 --prior connectome --core gru --openloop --resp-loss 0.03 --hidden 128 --seed 1 --n-cal --score-auth
+SP_cengen_s1 --scheme M3 --prior cengen --core gru --openloop --resp-loss 0.03 --hidden 128 --seed 1 --n-cal --score-auth
+SP_shufcengen_s1 --scheme M4 --prior cengen --core gru --openloop --resp-loss 0.03 --hidden 128 --seed 1 --n-cal --score-auth
+SP_connectome_s2 --scheme M3 --prior connectome --core gru --openloop --resp-loss 0.03 --hidden 128 --seed 2 --n-cal --score-auth
+SP_cengen_s2 --scheme M3 --prior cengen --core gru --openloop --resp-loss 0.03 --hidden 128 --seed 2 --n-cal --score-auth
+SP_shufcengen_s2 --scheme M4 --prior cengen --core gru --openloop --resp-loss 0.03 --hidden 128 --seed 2 --n-cal --score-auth

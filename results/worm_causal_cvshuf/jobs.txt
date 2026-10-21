@@ -1,0 +1,5 @@
+CFCVSH_f0_s0 --scheme M2 --level class --core gru --openloop --hidden 128 --eval-blind --fold 0 --seed 0 --n-cal
+CFCVSH_f1_s0 --scheme M2 --level class --core gru --openloop --hidden 128 --eval-blind --fold 1 --seed 0 --n-cal
+CFCVSH_f2_s0 --scheme M2 --level class --core gru --openloop --hidden 128 --eval-blind --fold 2 --seed 0 --n-cal
+CFCVSH_f3_s0 --scheme M2 --level class --core gru --openloop --hidden 128 --eval-blind --fold 3 --seed 0 --n-cal
+CFCVSH_f4_s0 --scheme M2 --level class --core gru --openloop --hidden 128 --eval-blind --fold 4 --seed 0 --n-cal

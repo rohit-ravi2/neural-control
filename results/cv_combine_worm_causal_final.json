@@ -1,0 +1,12 @@
+{
+ "ceiling_110": 0.5857423143341222,
+ "per_seed": {
+  "CFCV_s0": 0.4362500924646856,
+  "CFCV_s1": 0.4468785035932457
+ },
+ "CFCV_seed_ensemble": 0.45129259461584376,
+ "A+B_ensemble": 0.45129259461584376,
+ "Creamer connectome_constrained (contaminated)": 0.1273157630037284,
+ "Creamer fully_connected (contaminated)": 0.20234034627921435,
+ "Creamer shuffled_constrained (contaminated)": 0.09462566241780551
+}

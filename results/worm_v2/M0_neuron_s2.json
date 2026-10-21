@@ -1,0 +1,38 @@
+{
+ "scheme": "M0",
+ "level": "neuron",
+ "seed": 2,
+ "split": "holdout_list(exp_test.yml)+positional; recovers shipped test STAMs at r=0.70 (positional alone 0.47); paper split not exactly recoverable",
+ "n_keys": 10109,
+ "params_core": 24960,
+ "params_tables": 1304061,
+ "train_loss_last500": 0.03521869967132807,
+ "zero_shot": null,
+ "few_shot": {
+  "5": {
+   "few_shot": {
+    "r": -0.0012768614729520926,
+    "rho_same_events": 0.15432247956934686,
+    "paper_relative": -0.008273982355100237,
+    "n_events": 1162
+   }
+  },
+  "10": {
+   "few_shot": {
+    "r": 0.050045894462912355,
+    "rho_same_events": 0.1411458150738865,
+    "paper_relative": 0.3545687446469066,
+    "n_events": 1021
+   }
+  },
+  "20": {
+   "few_shot": {
+    "r": 0.04063842537583258,
+    "rho_same_events": 0.13406980507553698,
+    "paper_relative": 0.30311392899345435,
+    "n_events": 749
+   }
+  }
+ },
+ "seconds": 986.5986769199371
+}

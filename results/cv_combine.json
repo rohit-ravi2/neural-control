@@ -1,0 +1,14 @@
+{
+ "ceiling_110": 0.5857423143341222,
+ "per_seed": {
+  "CVA_s0": 0.5284912797493088,
+  "CVA_s1": 0.5323781175729912,
+  "CVB_s0": 0.5615865001241265
+ },
+ "CVA_seed_ensemble": 0.5480598800230242,
+ "CVB_seed_ensemble": 0.5615865001241265,
+ "A+B_ensemble": 0.5965381831379082,
+ "Creamer connectome_constrained (contaminated)": 0.1273157630037284,
+ "Creamer fully_connected (contaminated)": 0.20234034627921435,
+ "Creamer shuffled_constrained (contaminated)": 0.09462566241780551
+}

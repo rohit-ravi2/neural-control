@@ -1,0 +1,63 @@
+{
+ "split": "holdout_list(exp_test.yml)+positional; recovers shipped test STAMs at r=0.70 (positional alone 0.47); paper split not exactly recoverable",
+ "n_events_raw": 1307,
+ "n_events_clean": 1307,
+ "rho": {
+  "T_ship": 0.17343013773093044,
+  "T_auth_ours": 0.18760526093896537,
+  "T_evt_raw": 0.15665152049115882,
+  "T_evt_clean": 0.1566466900795064
+ },
+ "models": {
+  "connectome_constrained": {
+   "skip15": {
+    "T_ship": 0.14028366514742083,
+    "T_auth_ours": 0.10470041486216133,
+    "T_evt_raw": 0.08837353427481609,
+    "T_evt_clean": 0.0883677420882839
+   },
+   "full": {
+    "T_ship": 0.14028366514742083,
+    "T_auth_ours": 0.10470041486216133,
+    "T_evt_raw": 0.08837353427481609,
+    "T_evt_clean": 0.0883677420882839
+   }
+  },
+  "fully_connected": {
+   "skip15": {
+    "T_ship": 0.11964259524511694,
+    "T_auth_ours": 0.15315492392076058,
+    "T_evt_raw": 0.1127308435005294,
+    "T_evt_clean": 0.11273380293910723
+   },
+   "full": {
+    "T_ship": 0.11964259524511694,
+    "T_auth_ours": 0.15315492392076058,
+    "T_evt_raw": 0.1127308435005294,
+    "T_evt_clean": 0.11273380293910723
+   }
+  },
+  "shuffled_constrained": {
+   "skip15": {
+    "T_ship": 0.04033166521162904,
+    "T_auth_ours": 0.04958369621830742,
+    "T_evt_raw": 0.0482036691985062,
+    "T_evt_clean": 0.0481976495517831
+   },
+   "full": {
+    "T_ship": 0.04033166521162904,
+    "T_auth_ours": 0.04958369621830742,
+    "T_evt_raw": 0.0482036691985062,
+    "T_evt_clean": 0.0481976495517831
+   }
+  }
+ },
+ "target_vs_target": {
+  "T_ship~T_auth_ours": 0.6964606642550836,
+  "T_ship~T_evt_raw": 0.7063954276292704,
+  "T_ship~T_evt_clean": 0.706386633581556,
+  "T_auth_ours~T_evt_raw": 0.9803135272997067,
+  "T_auth_ours~T_evt_clean": 0.9803109659019249,
+  "T_evt_raw~T_evt_clean": 0.9999997032429615
+ }
+}

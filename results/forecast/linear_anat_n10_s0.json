@@ -1,0 +1,53 @@
+{
+ "args": {
+  "n_train": 10,
+  "seed": 0,
+  "lags": 10,
+  "drive": "anat"
+ },
+ "n_common": 52,
+ "self": {
+  "h2": {
+   "corr_change": 0.36718966340543857,
+   "skill_vs_persistence": 0.1343046060430465,
+   "alpha": 10
+  },
+  "h10": {
+   "corr_change": 0.5066803579158116,
+   "skill_vs_persistence": 0.25501747503442507,
+   "alpha": 1000
+  },
+  "h30": {
+   "corr_change": 0.6218526609039183,
+   "skill_vs_persistence": 0.385289755209808,
+   "alpha": 10
+  },
+  "h60": {
+   "corr_change": 0.6338390994976624,
+   "skill_vs_persistence": 0.4017389682833781,
+   "alpha": 1
+  }
+ },
+ "pop": {
+  "h2": {
+   "corr_change": 0.3744681833940462,
+   "skill_vs_persistence": 0.13533591670555334,
+   "alpha": 100
+  },
+  "h10": {
+   "corr_change": 0.5116473154455607,
+   "skill_vs_persistence": 0.2580157550272376,
+   "alpha": 10000.0
+  },
+  "h30": {
+   "corr_change": 0.6106532612428665,
+   "skill_vs_persistence": 0.36907913047570884,
+   "alpha": 10000.0
+  },
+  "h60": {
+   "corr_change": 0.6261777248708557,
+   "skill_vs_persistence": 0.3892847643515501,
+   "alpha": 1000
+  }
+ }
+}

@@ -1,0 +1,70 @@
+GRUol_s0 --scheme M1 --openloop --seed 0
+LINdiagol_s0 --scheme M1 --core lineardiag --openloop --seed 0
+LINsnol_s0 --scheme M1 --core linearsn --openloop --seed 0
+LINsnol128_s0 --scheme M1 --core linearsn --hidden 128 --openloop --seed 0
+M0r8_s0 --scheme M0 --tie --rank 8 --seed 0
+M0r16_s0 --scheme M0 --tie --rank 16 --seed 0
+GRUol_s1 --scheme M1 --openloop --seed 1
+LINdiagol_s1 --scheme M1 --core lineardiag --openloop --seed 1
+LINsnol_s1 --scheme M1 --core linearsn --openloop --seed 1
+LINsnol128_s1 --scheme M1 --core linearsn --hidden 128 --openloop --seed 1
+M0r8_s1 --scheme M0 --tie --rank 8 --seed 1
+M0r16_s1 --scheme M0 --tie --rank 16 --seed 1
+GRUol_s2 --scheme M1 --openloop --seed 2
+LINdiagol_s2 --scheme M1 --core lineardiag --openloop --seed 2
+LINsnol_s2 --scheme M1 --core linearsn --openloop --seed 2
+LINsnol128_s2 --scheme M1 --core linearsn --hidden 128 --openloop --seed 2
+M0r8_s2 --scheme M0 --tie --rank 8 --seed 2
+M0r16_s2 --scheme M0 --tie --rank 16 --seed 2
+GRUol_s3 --scheme M1 --openloop --seed 3
+LINdiagol_s3 --scheme M1 --core lineardiag --openloop --seed 3
+LINsnol_s3 --scheme M1 --core linearsn --openloop --seed 3
+LINsnol128_s3 --scheme M1 --core linearsn --hidden 128 --openloop --seed 3
+M0r8_s3 --scheme M0 --tie --rank 8 --seed 3
+M0r16_s3 --scheme M0 --tie --rank 16 --seed 3
+GRUol_s4 --scheme M1 --openloop --seed 4
+LINdiagol_s4 --scheme M1 --core lineardiag --openloop --seed 4
+LINsnol_s4 --scheme M1 --core linearsn --openloop --seed 4
+LINsnol128_s4 --scheme M1 --core linearsn --hidden 128 --openloop --seed 4
+M0r8_s4 --scheme M0 --tie --rank 8 --seed 4
+M0r16_s4 --scheme M0 --tie --rank 16 --seed 4
+G_channels_f0 --scheme M3 --genes channels --holdout-fold 0 --seed 0 --n-cal
+G_random_channels_f0 --scheme M3 --genes random_channels --holdout-fold 0 --seed 0 --n-cal
+G_receptors_f0 --scheme M3 --genes receptors --holdout-fold 0 --seed 0 --n-cal
+G_random_receptors_f0 --scheme M3 --genes random_receptors --holdout-fold 0 --seed 0 --n-cal
+G_neuropeptide_f0 --scheme M3 --genes neuropeptide --holdout-fold 0 --seed 0 --n-cal
+G_random_neuropeptide_f0 --scheme M3 --genes random_neuropeptide --holdout-fold 0 --seed 0 --n-cal
+G_tf_f0 --scheme M3 --genes tf --holdout-fold 0 --seed 0 --n-cal
+G_random_tf_f0 --scheme M3 --genes random_tf --holdout-fold 0 --seed 0 --n-cal
+G_channels_f1 --scheme M3 --genes channels --holdout-fold 1 --seed 0 --n-cal
+G_random_channels_f1 --scheme M3 --genes random_channels --holdout-fold 1 --seed 0 --n-cal
+G_receptors_f1 --scheme M3 --genes receptors --holdout-fold 1 --seed 0 --n-cal
+G_random_receptors_f1 --scheme M3 --genes random_receptors --holdout-fold 1 --seed 0 --n-cal
+G_neuropeptide_f1 --scheme M3 --genes neuropeptide --holdout-fold 1 --seed 0 --n-cal
+G_random_neuropeptide_f1 --scheme M3 --genes random_neuropeptide --holdout-fold 1 --seed 0 --n-cal
+G_tf_f1 --scheme M3 --genes tf --holdout-fold 1 --seed 0 --n-cal
+G_random_tf_f1 --scheme M3 --genes random_tf --holdout-fold 1 --seed 0 --n-cal
+G_channels_f2 --scheme M3 --genes channels --holdout-fold 2 --seed 0 --n-cal
+G_random_channels_f2 --scheme M3 --genes random_channels --holdout-fold 2 --seed 0 --n-cal
+G_receptors_f2 --scheme M3 --genes receptors --holdout-fold 2 --seed 0 --n-cal
+G_random_receptors_f2 --scheme M3 --genes random_receptors --holdout-fold 2 --seed 0 --n-cal
+G_neuropeptide_f2 --scheme M3 --genes neuropeptide --holdout-fold 2 --seed 0 --n-cal
+G_random_neuropeptide_f2 --scheme M3 --genes random_neuropeptide --holdout-fold 2 --seed 0 --n-cal
+G_tf_f2 --scheme M3 --genes tf --holdout-fold 2 --seed 0 --n-cal
+G_random_tf_f2 --scheme M3 --genes random_tf --holdout-fold 2 --seed 0 --n-cal
+G_channels_f3 --scheme M3 --genes channels --holdout-fold 3 --seed 0 --n-cal
+G_random_channels_f3 --scheme M3 --genes random_channels --holdout-fold 3 --seed 0 --n-cal
+G_receptors_f3 --scheme M3 --genes receptors --holdout-fold 3 --seed 0 --n-cal
+G_random_receptors_f3 --scheme M3 --genes random_receptors --holdout-fold 3 --seed 0 --n-cal
+G_neuropeptide_f3 --scheme M3 --genes neuropeptide --holdout-fold 3 --seed 0 --n-cal
+G_random_neuropeptide_f3 --scheme M3 --genes random_neuropeptide --holdout-fold 3 --seed 0 --n-cal
+G_tf_f3 --scheme M3 --genes tf --holdout-fold 3 --seed 0 --n-cal
+G_random_tf_f3 --scheme M3 --genes random_tf --holdout-fold 3 --seed 0 --n-cal
+G_channels_f4 --scheme M3 --genes channels --holdout-fold 4 --seed 0 --n-cal
+G_random_channels_f4 --scheme M3 --genes random_channels --holdout-fold 4 --seed 0 --n-cal
+G_receptors_f4 --scheme M3 --genes receptors --holdout-fold 4 --seed 0 --n-cal
+G_random_receptors_f4 --scheme M3 --genes random_receptors --holdout-fold 4 --seed 0 --n-cal
+G_neuropeptide_f4 --scheme M3 --genes neuropeptide --holdout-fold 4 --seed 0 --n-cal
+G_random_neuropeptide_f4 --scheme M3 --genes random_neuropeptide --holdout-fold 4 --seed 0 --n-cal
+G_tf_f4 --scheme M3 --genes tf --holdout-fold 4 --seed 0 --n-cal
+G_random_tf_f4 --scheme M3 --genes random_tf --holdout-fold 4 --seed 0 --n-cal

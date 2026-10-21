@@ -1,0 +1,10 @@
+M1lin_s0 --scheme M1 --level neuron --core linear --seed 0
+M1linc_s0 --scheme M1 --level class --core linear --seed 0
+M1lin_s1 --scheme M1 --level neuron --core linear --seed 1
+M1linc_s1 --scheme M1 --level class --core linear --seed 1
+M1lin_s2 --scheme M1 --level neuron --core linear --seed 2
+M1linc_s2 --scheme M1 --level class --core linear --seed 2
+M1lin_s3 --scheme M1 --level neuron --core linear --seed 3
+M1linc_s3 --scheme M1 --level class --core linear --seed 3
+M1lin_s4 --scheme M1 --level neuron --core linear --seed 4
+M1linc_s4 --scheme M1 --level class --core linear --seed 4

@@ -1,0 +1,50 @@
+{
+ "args": {
+  "init": "scratch",
+  "pre_ckpt": "",
+  "n_train": 5,
+  "seed": 0,
+  "steps": 20,
+  "hidden": 128,
+  "tag": "smoke",
+  "lr": 0.003
+ },
+ "n_vocab": 69,
+ "train_loss_last500": 0.9546696603298187,
+ "test": {
+  "h2": {
+   "corr_change": 0.2599034063212086,
+   "skill_vs_persistence": -2.829974889755249
+  },
+  "h10": {
+   "corr_change": 0.4619145932268802,
+   "skill_vs_persistence": -0.18696367740631104
+  },
+  "h30": {
+   "corr_change": 0.5916034924233613,
+   "skill_vs_persistence": 0.2811250686645508
+  },
+  "h60": {
+   "corr_change": 0.6132819944388486,
+   "skill_vs_persistence": 0.33114224672317505
+  }
+ },
+ "ar1_baseline": {
+  "h2": {
+   "corr_change": 0.28611450475331335,
+   "skill_vs_persistence": 0.08144491910934448
+  },
+  "h10": {
+   "corr_change": 0.47365704076268783,
+   "skill_vs_persistence": 0.22136622667312622
+  },
+  "h30": {
+   "corr_change": 0.602553443125621,
+   "skill_vs_persistence": 0.35987335443496704
+  },
+  "h60": {
+   "corr_change": 0.6187656704399161,
+   "skill_vs_persistence": 0.3822566866874695
+  }
+ }
+}

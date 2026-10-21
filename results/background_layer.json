@@ -1,0 +1,21 @@
+{
+ "n_real": 1307,
+ "n_pseudo": 521,
+ "gate_var_reduction": -0.7658747434616089,
+ "gate_pseudo_raw_map_vs_causal": 0.0030102621348029744,
+ "gate_pseudo_residual_map_vs_causal": -0.008081695207034233,
+ "gate_pass": false,
+ "real_var_reduction": -0.5183234214782715,
+ "ceiling_raw": {
+  "r_half": 0.07810192954406468,
+  "r_tt": 0.14488783927340604,
+  "ceiling": 0.3806413525530378
+ },
+ "ceiling_res": {
+  "r_half": 0.11610570432959641,
+  "r_tt": 0.20805503256402913,
+  "ceiling": 0.4561304994889392
+ },
+ "T_raw_vs_T_res": 0.6010915394010928,
+ "T_raw_vs_authors": 0.9818387777690388
+}

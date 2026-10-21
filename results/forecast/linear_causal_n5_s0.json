@@ -1,0 +1,53 @@
+{
+ "args": {
+  "n_train": 5,
+  "seed": 0,
+  "lags": 10,
+  "drive": "causal"
+ },
+ "n_common": 51,
+ "self": {
+  "h2": {
+   "corr_change": 0.36173917316218274,
+   "skill_vs_persistence": 0.13078071031051042,
+   "alpha": 100
+  },
+  "h10": {
+   "corr_change": 0.5011195154092974,
+   "skill_vs_persistence": 0.25047626162663406,
+   "alpha": 100
+  },
+  "h30": {
+   "corr_change": 0.6139310095056089,
+   "skill_vs_persistence": 0.37591490319294496,
+   "alpha": 1
+  },
+  "h60": {
+   "corr_change": 0.6257539425795725,
+   "skill_vs_persistence": 0.3915705941242337,
+   "alpha": 10
+  }
+ },
+ "pop": {
+  "h2": {
+   "corr_change": 0.355846732975512,
+   "skill_vs_persistence": 0.12471275586515229,
+   "alpha": 1000
+  },
+  "h10": {
+   "corr_change": 0.4943981614716525,
+   "skill_vs_persistence": 0.24067273208276285,
+   "alpha": 1000
+  },
+  "h30": {
+   "corr_change": 0.6012754908387672,
+   "skill_vs_persistence": 0.35987278691843805,
+   "alpha": 1000
+  },
+  "h60": {
+   "corr_change": 0.6024039030092906,
+   "skill_vs_persistence": 0.36026875501298694,
+   "alpha": 10000.0
+  }
+ }
+}

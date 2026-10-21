@@ -1,0 +1,50 @@
+{
+ "C (state-free ensemble)": {
+  "activate_spearman": 0.1652316400222275,
+  "selective_spearman": 0.16882281746185085,
+  "top1_percentile": 0.7207361386598208,
+  "top3_hit": 0.25675675675675674,
+  "n_goals": 148
+ },
+ "atlas lookup (train animals)": {
+  "activate_spearman": 0.12329664046831265,
+  "selective_spearman": 0.1347307490665247,
+  "top1_percentile": 0.638269688694338,
+  "top3_hit": 0.21768707482993196,
+  "n_goals": 147
+ },
+ "Creamer connectome_constrained": {
+  "activate_spearman": 0.08716551647848861,
+  "selective_spearman": 0.025142558764392982,
+  "top1_percentile": 0.5889131868358736,
+  "top3_hit": 0.14189189189189189,
+  "n_goals": 148
+ },
+ "Creamer fully_connected": {
+  "activate_spearman": 0.10606526212768415,
+  "selective_spearman": 0.10173546336361275,
+  "top1_percentile": 0.694917768124405,
+  "top3_hit": 0.24324324324324326,
+  "n_goals": 148
+ },
+ "random": {
+  "activate_spearman": 0.0066538799806089574,
+  "selective_spearman": 0.005566470975379115,
+  "top1_percentile": 0.5015950837116993,
+  "top3_hit": 0.07432432432432433,
+  "n_goals": 148
+ },
+ "split-half reference (15 animals -> 15 animals)": {
+  "activate_spearman": 0.06211595767813884,
+  "selective_spearman": 0.08587470290619947,
+  "top1_percentile": 0.554890556711608,
+  "top3_hit": 0.2534120666331238,
+  "n_goals": 92.8
+ },
+ "C abstention (top-1 percentile at coverage)": {
+  "25%": 0.7739790353358702,
+  "50%": 0.7636852817859175,
+  "75%": 0.7643379500173104,
+  "100%": 0.7309477628598589
+ }
+}

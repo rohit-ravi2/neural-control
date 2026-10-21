@@ -1,0 +1,31 @@
+{
+ "rho_obs": 0.17336,
+ "n_train": 80,
+ "n_test": 30,
+ "k_noise_over_signal": 228.6936437502896,
+ "rho_train": 0.25915661569213944,
+ "rho_test": 0.1159672868845523,
+ "ceiling_naive_sqrt_rho_obs": 0.41636522429232725,
+ "ceiling_correct_sqrt_rho_test": 0.3405396994251218,
+ "models": {
+  "connectome_constrained": {
+   "r": 0.14032,
+   "paper_relative": 0.8094139363174897,
+   "vs_naive_ceiling": 0.3370118151401671,
+   "vs_correct_ceiling": 0.4120518113949111
+  },
+  "fully_connected": {
+   "r": 0.11964,
+   "paper_relative": 0.6901245962159668,
+   "vs_naive_ceiling": 0.2873438822931128,
+   "vs_correct_ceiling": 0.3513246772754216
+  },
+  "shuffled_constrained": {
+   "r": 0.04032,
+   "paper_relative": 0.2325796031379788,
+   "vs_naive_ceiling": 0.096838058626365,
+   "vs_correct_ceiling": 0.11840029244186727
+  }
+ },
+ "assumption": "animal-to-animal variability is iid noise averaging as 1/N; non-diminishing biological variability would raise the true ceiling"
+}

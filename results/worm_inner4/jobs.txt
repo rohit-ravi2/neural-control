@@ -1,0 +1,6 @@
+I4_class_h128_st8000 --scheme M1 --level class --core gru --openloop --hidden 128 --steps 8000 --eval-blind --inner --seed 0 --n-cal
+I4_class_h256_st4000 --scheme M1 --level class --core gru --openloop --hidden 256 --steps 4000 --eval-blind --inner --seed 0 --n-cal
+I4_class_h256_st8000 --scheme M1 --level class --core gru --openloop --hidden 256 --steps 8000 --eval-blind --inner --seed 0 --n-cal
+I4_class_h512_st4000 --scheme M1 --level class --core gru --openloop --hidden 512 --steps 4000 --eval-blind --inner --seed 0 --n-cal
+I4_class_h512_st8000 --scheme M1 --level class --core gru --openloop --hidden 512 --steps 8000 --eval-blind --inner --seed 0 --n-cal
+I4_neuron_h256_st4000 --scheme M1 --level neuron --core gru --openloop --hidden 256 --steps 4000 --eval-blind --inner --seed 0 --n-cal

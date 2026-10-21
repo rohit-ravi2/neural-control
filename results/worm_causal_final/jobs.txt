@@ -1,0 +1,20 @@
+CF_C_s0 --scheme M1 --level class --core gru --openloop --hidden 128 --eval-blind --seed 0 --n-cal --score-auth
+CF_L_s0 --scheme M1 --level class --core lineardiag --openloop --eval-blind --seed 0 --n-cal --score-auth
+CF_C_s1 --scheme M1 --level class --core gru --openloop --hidden 128 --eval-blind --seed 1 --n-cal --score-auth
+CF_L_s1 --scheme M1 --level class --core lineardiag --openloop --eval-blind --seed 1 --n-cal --score-auth
+CF_C_s2 --scheme M1 --level class --core gru --openloop --hidden 128 --eval-blind --seed 2 --n-cal --score-auth
+CF_L_s2 --scheme M1 --level class --core lineardiag --openloop --eval-blind --seed 2 --n-cal --score-auth
+CF_C_s3 --scheme M1 --level class --core gru --openloop --hidden 128 --eval-blind --seed 3 --n-cal --score-auth
+CF_L_s3 --scheme M1 --level class --core lineardiag --openloop --eval-blind --seed 3 --n-cal --score-auth
+CF_C_s4 --scheme M1 --level class --core gru --openloop --hidden 128 --eval-blind --seed 4 --n-cal --score-auth
+CF_L_s4 --scheme M1 --level class --core lineardiag --openloop --eval-blind --seed 4 --n-cal --score-auth
+CFCV_f0_s0 --scheme M1 --level class --core gru --openloop --hidden 128 --eval-blind --fold 0 --seed 0 --n-cal
+CFCV_f0_s1 --scheme M1 --level class --core gru --openloop --hidden 128 --eval-blind --fold 0 --seed 1 --n-cal
+CFCV_f1_s0 --scheme M1 --level class --core gru --openloop --hidden 128 --eval-blind --fold 1 --seed 0 --n-cal
+CFCV_f1_s1 --scheme M1 --level class --core gru --openloop --hidden 128 --eval-blind --fold 1 --seed 1 --n-cal
+CFCV_f2_s0 --scheme M1 --level class --core gru --openloop --hidden 128 --eval-blind --fold 2 --seed 0 --n-cal
+CFCV_f2_s1 --scheme M1 --level class --core gru --openloop --hidden 128 --eval-blind --fold 2 --seed 1 --n-cal
+CFCV_f3_s0 --scheme M1 --level class --core gru --openloop --hidden 128 --eval-blind --fold 3 --seed 0 --n-cal
+CFCV_f3_s1 --scheme M1 --level class --core gru --openloop --hidden 128 --eval-blind --fold 3 --seed 1 --n-cal
+CFCV_f4_s0 --scheme M1 --level class --core gru --openloop --hidden 128 --eval-blind --fold 4 --seed 0 --n-cal
+CFCV_f4_s1 --scheme M1 --level class --core gru --openloop --hidden 128 --eval-blind --fold 4 --seed 1 --n-cal

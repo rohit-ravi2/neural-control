@@ -1,0 +1,38 @@
+{
+ "scheme": "M1",
+ "level": "class",
+ "seed": 0,
+ "split": "inner 60/20 of train (seed 555)",
+ "n_keys": 98,
+ "params_core": 887808,
+ "params_tables": 56546,
+ "train_loss_last500": 0.03231501266732812,
+ "zero_shot": {
+  "r": 0.15528632025896033,
+  "rho_same_events": 0.133622508128471,
+  "paper_relative": 1.162126968232483,
+  "n_events": 817
+ },
+ "few_shot": {},
+ "variant": {
+  "tie": false,
+  "rank": 0,
+  "core": "gru",
+  "lr": 0.003,
+  "resp_loss": 0.0,
+  "fold": -1,
+  "resp_blind": false,
+  "eval_blind": true,
+  "openloop": true,
+  "hidden": 512,
+  "genes": "all",
+  "prior": "cengen",
+  "holdout_fold": -1,
+  "fs_lr": 0.003,
+  "fs_steps": 400,
+  "fs_init": null,
+  "fs_anchor": 0.0,
+  "from_ckpt": ""
+ },
+ "seconds": 973.2532436847687
+}

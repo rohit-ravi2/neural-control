@@ -1,0 +1,10 @@
+I3_gru_class_l0 --scheme M1 --level class --core gru --openloop --hidden 128 --resp-loss 0 --resp-blind --eval-blind --inner --seed 0 --n-cal
+I3_gru_class_l0.03 --scheme M1 --level class --core gru --openloop --hidden 128 --resp-loss 0.03 --resp-blind --eval-blind --inner --seed 0 --n-cal
+I3_gru_class_l0.1 --scheme M1 --level class --core gru --openloop --hidden 128 --resp-loss 0.1 --resp-blind --eval-blind --inner --seed 0 --n-cal
+I3_gru_class_l0.3 --scheme M1 --level class --core gru --openloop --hidden 128 --resp-loss 0.3 --resp-blind --eval-blind --inner --seed 0 --n-cal
+I3_gru_class_l1 --scheme M1 --level class --core gru --openloop --hidden 128 --resp-loss 1 --resp-blind --eval-blind --inner --seed 0 --n-cal
+I3_gru_neuron_l0 --scheme M1 --level neuron --core gru --openloop --hidden 64 --resp-loss 0 --resp-blind --eval-blind --inner --seed 0 --n-cal
+I3_gru_neuron_l0.1 --scheme M1 --level neuron --core gru --openloop --hidden 64 --resp-loss 0.1 --resp-blind --eval-blind --inner --seed 0 --n-cal
+I3_gru_neuron_l0.3 --scheme M1 --level neuron --core gru --openloop --hidden 64 --resp-loss 0.3 --resp-blind --eval-blind --inner --seed 0 --n-cal
+I3_lin_class_l0 --scheme M1 --level class --core lineardiag --openloop --resp-loss 0 --resp-blind --eval-blind --inner --seed 0 --n-cal
+I3_lin_class_l0.1 --scheme M1 --level class --core lineardiag --openloop --resp-loss 0.1 --resp-blind --eval-blind --inner --seed 0 --n-cal

@@ -1,0 +1,22 @@
+{
+ "prefirst_train->test": {
+  "r": 0.07584985795536876,
+  "frames": 8843,
+  "animals": 73
+ },
+ "prefirst_all->all": {
+  "r": 0.13519432465439107,
+  "frames": 11721,
+  "animals": 99
+ },
+ "w45_train->test": {
+  "r": 0.11468761283947985,
+  "frames": 101666,
+  "animals": 80
+ },
+ "w60_train->test": {
+  "r": 0.09613870463838611,
+  "frames": 75203,
+  "animals": 80
+ }
+}

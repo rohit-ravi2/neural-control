@@ -1,0 +1,50 @@
+{
+ "args": {
+  "init": "randi",
+  "pre_ckpt": "results/worm_causal_final/M1_class_s0_CF_C_s0.pt",
+  "n_train": 10,
+  "seed": 0,
+  "steps": 3000,
+  "hidden": 128,
+  "tag": "FC_causal_n10_s0",
+  "lr": 0.003
+ },
+ "n_vocab": 105,
+ "train_loss_last500": 0.4626473298072815,
+ "test": {
+  "h2": {
+   "corr_change": 0.270533527202511,
+   "skill_vs_persistence": -2.0679304599761963
+  },
+  "h10": {
+   "corr_change": 0.4624665353051072,
+   "skill_vs_persistence": -0.0970832109451294
+  },
+  "h30": {
+   "corr_change": 0.5772641465935888,
+   "skill_vs_persistence": 0.25276994705200195
+  },
+  "h60": {
+   "corr_change": 0.5765257664898239,
+   "skill_vs_persistence": 0.2628960609436035
+  }
+ },
+ "ar1_baseline": {
+  "h2": {
+   "corr_change": 0.284984844346572,
+   "skill_vs_persistence": 0.08115363121032715
+  },
+  "h10": {
+   "corr_change": 0.47824046394012004,
+   "skill_vs_persistence": 0.2268824577331543
+  },
+  "h30": {
+   "corr_change": 0.6110989581056435,
+   "skill_vs_persistence": 0.3704472780227661
+  },
+  "h60": {
+   "corr_change": 0.6267147775708449,
+   "skill_vs_persistence": 0.3923366069793701
+  }
+ }
+}

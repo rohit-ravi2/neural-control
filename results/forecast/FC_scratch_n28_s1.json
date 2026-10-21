@@ -1,0 +1,50 @@
+{
+ "args": {
+  "init": "scratch",
+  "pre_ckpt": "",
+  "n_train": 28,
+  "seed": 1,
+  "steps": 3000,
+  "hidden": 128,
+  "tag": "FC_scratch_n28_s1",
+  "lr": 0.003
+ },
+ "n_vocab": 75,
+ "train_loss_last500": 0.5963489538431168,
+ "test": {
+  "h2": {
+   "corr_change": 0.2873116626806932,
+   "skill_vs_persistence": -1.714277982711792
+  },
+  "h10": {
+   "corr_change": 0.4925937453489268,
+   "skill_vs_persistence": 0.04715895652770996
+  },
+  "h30": {
+   "corr_change": 0.6151803029818204,
+   "skill_vs_persistence": 0.3413172960281372
+  },
+  "h60": {
+   "corr_change": 0.6253904164071986,
+   "skill_vs_persistence": 0.3690081238746643
+  }
+ },
+ "ar1_baseline": {
+  "h2": {
+   "corr_change": 0.28880359473595674,
+   "skill_vs_persistence": 0.08336114883422852
+  },
+  "h10": {
+   "corr_change": 0.4799244051576091,
+   "skill_vs_persistence": 0.22942954301834106
+  },
+  "h30": {
+   "corr_change": 0.6121395442598486,
+   "skill_vs_persistence": 0.3733598589897156
+  },
+  "h60": {
+   "corr_change": 0.6279857147068194,
+   "skill_vs_persistence": 0.3943306803703308
+  }
+ }
+}

@@ -1,0 +1,4 @@
+PRE_nostim_s0 --scheme M1 --level class --core gru --openloop --hidden 128 --no-stim --seed 0 --n-cal
+PRE_shuf_s0 --scheme M2 --level class --core gru --openloop --hidden 128 --seed 0 --n-cal
+PRE_nostim_s1 --scheme M1 --level class --core gru --openloop --hidden 128 --no-stim --seed 1 --n-cal
+PRE_shuf_s1 --scheme M2 --level class --core gru --openloop --hidden 128 --seed 1 --n-cal

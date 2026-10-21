@@ -1,0 +1,38 @@
+{
+ "scheme": "M4",
+ "level": "neuron",
+ "seed": 1,
+ "split": "holdout_list(exp_test.yml)+positional; recovers shipped test STAMs at r=0.70 (positional alone 0.47); paper split not exactly recoverable",
+ "n_keys": 205,
+ "params_core": 39681,
+ "params_tables": 0,
+ "train_loss_last500": NaN,
+ "zero_shot": {
+  "r": 0.1844970696989179,
+  "rho_same_events": 0.1566466900795064,
+  "paper_relative": 1.177791050709568,
+  "n_events": 1307
+ },
+ "few_shot": {},
+ "variant": {
+  "tie": false,
+  "rank": 0,
+  "core": "gru",
+  "lr": 0.003,
+  "openloop": false,
+  "hidden": 64,
+  "genes": "all",
+  "prior": "cengen",
+  "holdout_fold": -1,
+  "fs_lr": 0.003,
+  "fs_steps": 400,
+  "fs_init": null,
+  "fs_anchor": 0.0,
+  "from_ckpt": "results/worm_p3/M4_neuron_s1_M4_s1.pt"
+ },
+ "auth": {
+  "r": 0.22353096653240415,
+  "rho": 0.18760526093896537
+ },
+ "seconds": 87.80025744438171
+}

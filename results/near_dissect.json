@@ -1,0 +1,102 @@
+{
+ "strata": {
+  "T_ship <5": {
+   "n": 122,
+   "connectome_constrained": 0.11443244702154297,
+   "shuffled_constrained": 0.05497642001363822,
+   "anatomy": 0.1248156673867785
+  },
+  "T_ship 5-10": {
+   "n": 814,
+   "connectome_constrained": 0.20566745308731374,
+   "shuffled_constrained": -0.01576443485503794,
+   "anatomy": 0.08947858944084344
+  },
+  "T_ship 10-15": {
+   "n": 1809,
+   "connectome_constrained": 0.04781268412291415,
+   "shuffled_constrained": 0.03045250503221665,
+   "anatomy": 0.005733505334871456
+  },
+  "T_ship >=15": {
+   "n": 7933,
+   "connectome_constrained": 0.008293766307241218,
+   "shuffled_constrained": 0.00857499107140312,
+   "anatomy": 0.009368808211790236
+  },
+  "T_auth_ours <5": {
+   "n": 130,
+   "connectome_constrained": -0.04353084092595872,
+   "shuffled_constrained": 0.035799786474697726,
+   "anatomy": 0.040843218039293985
+  },
+  "T_auth_ours 5-10": {
+   "n": 766,
+   "connectome_constrained": 0.11922556487356584,
+   "shuffled_constrained": 0.05623759999606344,
+   "anatomy": 0.043653029346660766
+  },
+  "T_auth_ours 10-15": {
+   "n": 1748,
+   "connectome_constrained": 0.06442710178180514,
+   "shuffled_constrained": 0.016269400264090787,
+   "anatomy": 0.02220610950431257
+  },
+  "T_auth_ours >=15": {
+   "n": 7220,
+   "connectome_constrained": 0.000412242794020923,
+   "shuffled_constrained": 0.001315803218588063,
+   "anatomy": 0.0023277990170619935
+  }
+ },
+ "partial_given_distance": {
+  "T_ship connectome_constrained": {
+   "rho": 0.09350972100039551,
+   "ci95": [
+    0.0188834060170108,
+    0.15822897311009038
+   ],
+   "n": 936
+  },
+  "T_ship shuffled_constrained": {
+   "rho": -0.03348842959655861,
+   "ci95": [
+    -0.09742521729811614,
+    0.027143436687773727
+   ],
+   "n": 936
+  },
+  "T_ship anatomy": {
+   "rho": 0.0920419640212508,
+   "ci95": [
+    0.023223546790129185,
+    0.15697949868904024
+   ],
+   "n": 936
+  },
+  "T_auth_ours connectome_constrained": {
+   "rho": 0.04117810309424496,
+   "ci95": [
+    -0.023880015074367756,
+    0.10876275259757887
+   ],
+   "n": 896
+  },
+  "T_auth_ours shuffled_constrained": {
+   "rho": 0.008050506650993274,
+   "ci95": [
+    -0.0611584153191524,
+    0.07647136048862914
+   ],
+   "n": 896
+  },
+  "T_auth_ours anatomy": {
+   "rho": 0.05808230118744605,
+   "ci95": [
+    -0.008112392763344203,
+    0.12232951783702467
+   ],
+   "n": 896
+  }
+ }
+}

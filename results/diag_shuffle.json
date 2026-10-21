@@ -1,0 +1,12 @@
+{
+ "shuffled vs target": 0.2332922284736312,
+ "shuffled blind burn-in vs target": 0.028220524635653804,
+ "shuffled (different test permutation) vs target": 0.22643441955203833,
+ "shuffled perm1 vs perm2": 0.2117844041223917,
+ "shuffled vs its own additive (row+col)": 0.3673484688988871,
+ "shuffled additive vs target": 0.10441272475248489,
+ "real A vs target": 0.3750984460075221,
+ "real A vs shuffled": 0.15980120405474646,
+ "real A additive vs target": 0.13150263093047168,
+ "target own additive vs target": 0.26899922673309484
+}

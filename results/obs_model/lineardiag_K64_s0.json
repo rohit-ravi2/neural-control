@@ -1,0 +1,45 @@
+{
+ "tag": "lineardiag_K64_s0",
+ "args": {
+  "seed": 0,
+  "core": "lineardiag",
+  "hidden": 64,
+  "steps": 4000,
+  "durs": [
+   4,
+   1,
+   10
+  ],
+  "amp": 1.0,
+  "shuffle": false,
+  "zscore_randi": false
+ },
+ "n_keys": 159,
+ "train_loss_last500": 0.6231605105400085,
+ "scores": {
+  "test_dur4": {
+   "r": 0.03345310391076761,
+   "n_events": 806
+  },
+  "test_dur1": {
+   "r": 0.033100860226201866,
+   "n_events": 806
+  },
+  "test_dur10": {
+   "r": 0.03419610974433126,
+   "n_events": 806
+  },
+  "all_dur4": {
+   "r": 0.05211749632787734,
+   "n_events": 2776
+  },
+  "all_dur1": {
+   "r": 0.05164419983743811,
+   "n_events": 2776
+  },
+  "all_dur10": {
+   "r": 0.05311957044479122,
+   "n_events": 2776
+  }
+ }
+}

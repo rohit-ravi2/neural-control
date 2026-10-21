@@ -1,0 +1,9 @@
+{
+ "n_train_pseudo": 1785,
+ "alpha_fit_on_train": 0.29475700855255127,
+ "train_corr_b_measured": 0.38760994996559006,
+ "test_corr_b_measured": 0.4214156440704611,
+ "test_var_reduction_alpha": 0.1774725317955017,
+ "test_pseudo_residual_map_vs_causal": -0.000619818006161979,
+ "gate_pass": true
+}

@@ -1,0 +1,3 @@
+RI_l0.03 --scheme M1 --level class --core gru --openloop --hidden 128 --resp-loss 0.03 --resp-blind --bg-ckpt ../results/worm_causal_final/M1_class_s4_CF_C_s4.pt --bg-alpha 0.295 --eval-blind --inner --seed 0 --n-cal
+RI_l0.1 --scheme M1 --level class --core gru --openloop --hidden 128 --resp-loss 0.1 --resp-blind --bg-ckpt ../results/worm_causal_final/M1_class_s4_CF_C_s4.pt --bg-alpha 0.295 --eval-blind --inner --seed 0 --n-cal
+RI_l0.3 --scheme M1 --level class --core gru --openloop --hidden 128 --resp-loss 0.3 --resp-blind --bg-ckpt ../results/worm_causal_final/M1_class_s4_CF_C_s4.pt --bg-alpha 0.295 --eval-blind --inner --seed 0 --n-cal

@@ -1,0 +1,25 @@
+M3_s0 --scheme M3 --seed 0
+M4_s0 --scheme M4 --seed 0
+M3h_s0 --scheme M3 --seed 0 --holdout-frac 0.15
+M4h_s0 --scheme M4 --seed 0 --holdout-frac 0.15
+M1h_s0 --scheme M1 --seed 0 --holdout-frac 0.15
+M3_s1 --scheme M3 --seed 1
+M4_s1 --scheme M4 --seed 1
+M3h_s1 --scheme M3 --seed 1 --holdout-frac 0.15
+M4h_s1 --scheme M4 --seed 1 --holdout-frac 0.15
+M1h_s1 --scheme M1 --seed 1 --holdout-frac 0.15
+M3_s2 --scheme M3 --seed 2
+M4_s2 --scheme M4 --seed 2
+M3h_s2 --scheme M3 --seed 2 --holdout-frac 0.15
+M4h_s2 --scheme M4 --seed 2 --holdout-frac 0.15
+M1h_s2 --scheme M1 --seed 2 --holdout-frac 0.15
+M3_s3 --scheme M3 --seed 3
+M4_s3 --scheme M4 --seed 3
+M3h_s3 --scheme M3 --seed 3 --holdout-frac 0.15
+M4h_s3 --scheme M4 --seed 3 --holdout-frac 0.15
+M1h_s3 --scheme M1 --seed 3 --holdout-frac 0.15
+M3_s4 --scheme M3 --seed 4
+M4_s4 --scheme M4 --seed 4
+M3h_s4 --scheme M3 --seed 4 --holdout-frac 0.15
+M4h_s4 --scheme M4 --seed 4 --holdout-frac 0.15
+M1h_s4 --scheme M1 --seed 4 --holdout-frac 0.15

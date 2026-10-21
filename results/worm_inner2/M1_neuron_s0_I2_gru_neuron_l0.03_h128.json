@@ -1,0 +1,36 @@
+{
+ "scheme": "M1",
+ "level": "neuron",
+ "seed": 0,
+ "split": "inner 60/20 of train (seed 555)",
+ "n_keys": 195,
+ "params_core": 74496,
+ "params_tables": 37635,
+ "train_loss_last500": 0.06336649647355079,
+ "zero_shot": {
+  "r": 0.28264549512641723,
+  "rho_same_events": 0.133622508128471,
+  "paper_relative": 2.1152536281886616,
+  "n_events": 817
+ },
+ "few_shot": {},
+ "variant": {
+  "tie": false,
+  "rank": 0,
+  "core": "gru",
+  "lr": 0.003,
+  "resp_loss": 0.03,
+  "fold": -1,
+  "openloop": true,
+  "hidden": 128,
+  "genes": "all",
+  "prior": "cengen",
+  "holdout_fold": -1,
+  "fs_lr": 0.003,
+  "fs_steps": 400,
+  "fs_init": null,
+  "fs_anchor": 0.0,
+  "from_ckpt": ""
+ },
+ "seconds": 903.3153138160706
+}

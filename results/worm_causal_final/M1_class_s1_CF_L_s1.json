@@ -1,0 +1,42 @@
+{
+ "scheme": "M1",
+ "level": "class",
+ "seed": 1,
+ "split": "holdout_list(exp_test.yml)+positional; recovers shipped test STAMs at r=0.70 (positional alone 0.47); paper split not exactly recoverable",
+ "n_keys": 102,
+ "params_core": 4224,
+ "params_tables": 13158,
+ "train_loss_last500": 0.03955409540235996,
+ "zero_shot": {
+  "r": 0.20606888882004035,
+  "rho_same_events": 0.1566466900795064,
+  "paper_relative": 1.3155010726077236,
+  "n_events": 1307
+ },
+ "few_shot": {},
+ "variant": {
+  "tie": false,
+  "rank": 0,
+  "core": "lineardiag",
+  "lr": 0.003,
+  "resp_loss": 0.0,
+  "fold": -1,
+  "resp_blind": false,
+  "eval_blind": true,
+  "openloop": true,
+  "hidden": 64,
+  "genes": "all",
+  "prior": "cengen",
+  "holdout_fold": -1,
+  "fs_lr": 0.003,
+  "fs_steps": 400,
+  "fs_init": null,
+  "fs_anchor": 0.0,
+  "from_ckpt": ""
+ },
+ "auth": {
+  "r": 0.2405920029454763,
+  "rho": 0.18760526093896537
+ },
+ "seconds": 471.0275995731354
+}

@@ -1,0 +1,38 @@
+{
+ "alpha": 0.29475700855255127,
+ "real_var_removed": 0.17301326990127563,
+ "ceiling_raw": {
+  "r_half": 0.08055873895966933,
+  "r_tt": 0.14910570995377623,
+  "ceiling": 0.3861420851885692
+ },
+ "ceiling_res": {
+  "r_half": 0.09919127994062424,
+  "r_tt": 0.18048047096221928,
+  "ceiling": 0.42482993181062384
+ },
+ "C state-free ensemble": {
+  "raw": 0.23154075804624602,
+  "res": 0.2571286510399525,
+  "raw_frac_ceiling": 0.5996258033702155,
+  "res_frac_ceiling": 0.6052507881073046
+ },
+ "shuffled identity (v2 M2 class)": {
+  "raw": 0.00267720851914864,
+  "res": 2.0813156220604963e-05,
+  "raw_frac_ceiling": 0.006933221272271444,
+  "res_frac_ceiling": 4.8991736839020164e-05
+ },
+ "Creamer connectome_constrained": {
+  "raw": 0.09135167941102051,
+  "res": 0.10487787142830994,
+  "raw_frac_ceiling": 0.23657529939118058,
+  "res_frac_ceiling": 0.2468702498934592
+ },
+ "Creamer fully_connected": {
+  "raw": 0.11742789865328056,
+  "res": 0.13088356739219564,
+  "raw_frac_ceiling": 0.3041054139331527,
+  "res_frac_ceiling": 0.30808461831860645
+ }
+}

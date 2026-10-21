@@ -1,0 +1,50 @@
+{
+ "args": {
+  "init": "randi",
+  "pre_ckpt": "results/worm_pretrain_ctrl/M1_class_s0_PRE_nostim_s0.pt",
+  "n_train": 10,
+  "seed": 0,
+  "steps": 3000,
+  "hidden": 128,
+  "tag": "FC_nostim_n10_s0",
+  "lr": 0.003
+ },
+ "n_vocab": 105,
+ "train_loss_last500": 0.4658888347148895,
+ "test": {
+  "h2": {
+   "corr_change": 0.26927840929034574,
+   "skill_vs_persistence": -2.0848233699798584
+  },
+  "h10": {
+   "corr_change": 0.4677466082402818,
+   "skill_vs_persistence": -0.09141278266906738
+  },
+  "h30": {
+   "corr_change": 0.5860644911483057,
+   "skill_vs_persistence": 0.2700815796852112
+  },
+  "h60": {
+   "corr_change": 0.5807692988948121,
+   "skill_vs_persistence": 0.27265024185180664
+  }
+ },
+ "ar1_baseline": {
+  "h2": {
+   "corr_change": 0.284984844346572,
+   "skill_vs_persistence": 0.08115363121032715
+  },
+  "h10": {
+   "corr_change": 0.47824046394012004,
+   "skill_vs_persistence": 0.2268824577331543
+  },
+  "h30": {
+   "corr_change": 0.6110989581056435,
+   "skill_vs_persistence": 0.3704472780227661
+  },
+  "h60": {
+   "corr_change": 0.6267147775708449,
+   "skill_vs_persistence": 0.3923366069793701
+  }
+ }
+}

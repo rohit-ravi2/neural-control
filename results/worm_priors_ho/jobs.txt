@@ -1,0 +1,20 @@
+HO_connectome_f0 --scheme M3 --prior connectome --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 0 --seed 0 --n-cal --score-auth
+HO_cengen_f0 --scheme M3 --prior cengen --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 0 --seed 0 --n-cal --score-auth
+HO_shuf_f0 --scheme M4 --prior cengen --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 0 --seed 0 --n-cal --score-auth
+HO_m1_f0 --scheme M1 --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 0 --seed 0 --n-cal --score-auth
+HO_connectome_f1 --scheme M3 --prior connectome --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 1 --seed 0 --n-cal --score-auth
+HO_cengen_f1 --scheme M3 --prior cengen --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 1 --seed 0 --n-cal --score-auth
+HO_shuf_f1 --scheme M4 --prior cengen --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 1 --seed 0 --n-cal --score-auth
+HO_m1_f1 --scheme M1 --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 1 --seed 0 --n-cal --score-auth
+HO_connectome_f2 --scheme M3 --prior connectome --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 2 --seed 0 --n-cal --score-auth
+HO_cengen_f2 --scheme M3 --prior cengen --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 2 --seed 0 --n-cal --score-auth
+HO_shuf_f2 --scheme M4 --prior cengen --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 2 --seed 0 --n-cal --score-auth
+HO_m1_f2 --scheme M1 --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 2 --seed 0 --n-cal --score-auth
+HO_connectome_f3 --scheme M3 --prior connectome --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 3 --seed 0 --n-cal --score-auth
+HO_cengen_f3 --scheme M3 --prior cengen --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 3 --seed 0 --n-cal --score-auth
+HO_shuf_f3 --scheme M4 --prior cengen --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 3 --seed 0 --n-cal --score-auth
+HO_m1_f3 --scheme M1 --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 3 --seed 0 --n-cal --score-auth
+HO_connectome_f4 --scheme M3 --prior connectome --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 4 --seed 0 --n-cal --score-auth
+HO_cengen_f4 --scheme M3 --prior cengen --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 4 --seed 0 --n-cal --score-auth
+HO_shuf_f4 --scheme M4 --prior cengen --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 4 --seed 0 --n-cal --score-auth
+HO_m1_f4 --scheme M1 --core gru --openloop --resp-loss 0.03 --hidden 128 --holdout-fold 4 --seed 0 --n-cal --score-auth

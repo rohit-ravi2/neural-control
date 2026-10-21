@@ -1,0 +1,61 @@
+{
+ "scheme": "M1",
+ "level": "class",
+ "seed": 4,
+ "split": "holdout_list(exp_test.yml)+positional; recovers shipped test STAMs at r=0.70 (positional alone 0.47); paper split not exactly recoverable",
+ "n_keys": 102,
+ "params_core": 24960,
+ "params_tables": 13158,
+ "train_loss_last500": 0.040905810713768004,
+ "zero_shot": {
+  "r": 0.2164551185527747,
+  "rho_same_events": 0.15665151950972475,
+  "paper_relative": 1.3817620105455626,
+  "n_events": 1307
+ },
+ "few_shot": {
+  "5": {
+   "few_shot": {
+    "r": 0.15164731448480645,
+    "rho_same_events": 0.15432617282858596,
+    "paper_relative": 0.982641581173953,
+    "n_events": 1162
+   },
+   "zero_shot_same_events": {
+    "r": 0.20705227718187494,
+    "rho_same_events": 0.15432617282858596,
+    "paper_relative": 1.341653676669953,
+    "n_events": 1162
+   }
+  },
+  "10": {
+   "few_shot": {
+    "r": 0.16033411320604826,
+    "rho_same_events": 0.14114879389267876,
+    "paper_relative": 1.135922658524145,
+    "n_events": 1021
+   },
+   "zero_shot_same_events": {
+    "r": 0.18372243063672936,
+    "rho_same_events": 0.14114879389267876,
+    "paper_relative": 1.3016223913072973,
+    "n_events": 1021
+   }
+  },
+  "20": {
+   "few_shot": {
+    "r": 0.17798144330602292,
+    "rho_same_events": 0.1340693493272595,
+    "paper_relative": 1.3275326851298073,
+    "n_events": 749
+   },
+   "zero_shot_same_events": {
+    "r": 0.16898108980904278,
+    "rho_same_events": 0.1340693493272595,
+    "paper_relative": 1.260400611004419,
+    "n_events": 749
+   }
+  }
+ },
+ "seconds": 565.6052541732788
+}

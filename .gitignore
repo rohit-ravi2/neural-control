@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+work/
+data/
+*.npz
+*.npy
+*.pt
+*.ckpt
+*.pkl
+results/**/logs/
+*.log
+.venv/
+venv/

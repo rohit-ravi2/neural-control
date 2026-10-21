@@ -1,0 +1,26 @@
+{
+ "tag": "lineardiag_K64_s99",
+ "args": {
+  "seed": 99,
+  "core": "lineardiag",
+  "hidden": 64,
+  "steps": 100,
+  "durs": [
+   4
+  ],
+  "amp": 1.0,
+  "zscore_randi": false
+ },
+ "n_keys": 159,
+ "train_loss_last500": 0.9120728433132171,
+ "scores": {
+  "test_dur4": {
+   "r": 0.016295362304966948,
+   "n_events": 806
+  },
+  "all_dur4": {
+   "r": 0.030125458048068827,
+   "n_events": 2776
+  }
+ }
+}

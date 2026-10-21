@@ -1,0 +1,27 @@
+{
+ "a": {
+  "r_half_mean": 0.10744391439772645,
+  "r_half_sd": 0.020374569355088985,
+  "r_tt_30": 0.19403946872769423,
+  "noiseless_ceiling": 0.4404991131973982,
+  "rho_train80_to_test30": 0.18760526093896537,
+  "Creamer CC fraction of ceiling": 0.23836597362897977,
+  "Creamer FC fraction of ceiling": 0.3473332758593705,
+  "M1 neuron fraction of ceiling": 0.5062439249453571,
+  "M1 class fraction of ceiling": 0.5629977281903522
+ },
+ "b": {
+  "pooled train STAM (shared map)": {
+   "mean": 0.11623182308188756,
+   "n": 842
+  },
+  "same animal, same target repeat (individual ceiling proxy)": {
+   "mean": 0.14316114743822764,
+   "n": 339
+  },
+  "pooled train STAM, on events that have a repeat": {
+   "mean": 0.11493158414853398,
+   "n": 337
+  }
+ }
+}

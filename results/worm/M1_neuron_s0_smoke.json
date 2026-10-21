@@ -1,0 +1,33 @@
+{
+ "scheme": "M1",
+ "level": "neuron",
+ "seed": 0,
+ "split": "positional",
+ "n_keys": 206,
+ "params_core": 24960,
+ "params_tables": 26574,
+ "train_loss_last500": 0.053429759852588174,
+ "zero_shot": {
+  "r": 0.015464023258238079,
+  "rho_same_events": 0.13417407932676556,
+  "paper_relative": 0.11525343297178307,
+  "n_events": 1462
+ },
+ "few_shot": {
+  "10": {
+   "few_shot": {
+    "r": 0.018482783758487747,
+    "rho_same_events": 0.11157851144179219,
+    "paper_relative": 0.16564823745770949,
+    "n_events": 1171
+   },
+   "zero_shot_same_events": {
+    "r": 0.018873507620240378,
+    "rho_same_events": 0.11157851144179219,
+    "paper_relative": 0.16915002159789727,
+    "n_events": 1171
+   }
+  }
+ },
+ "seconds": 481.69486951828003
+}

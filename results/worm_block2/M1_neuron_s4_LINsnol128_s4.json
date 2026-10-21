@@ -1,0 +1,117 @@
+{
+ "scheme": "M1",
+ "level": "neuron",
+ "seed": 4,
+ "split": "holdout_list(exp_test.yml)+positional; recovers shipped test STAMs at r=0.70 (positional alone 0.47); paper split not exactly recoverable",
+ "n_keys": 205,
+ "params_core": 24704,
+ "params_tables": 39565,
+ "train_loss_last500": 0.04285432179644704,
+ "zero_shot": {
+  "r": 0.07440478939447918,
+  "rho_same_events": 0.1566466900795064,
+  "paper_relative": 0.4749847529923221,
+  "n_events": 1307
+ },
+ "few_shot": {
+  "5": {
+   "few_shot": {
+    "r": 0.03964870925684378,
+    "rho_same_events": 0.15432247956934686,
+    "paper_relative": 0.2569211521710102,
+    "n_events": 1162
+   },
+   "zero_shot_same_events": {
+    "r": 0.06717810905578414,
+    "rho_same_events": 0.15432247956934686,
+    "paper_relative": 0.4353099382750441,
+    "n_events": 1162
+   },
+   "seen_targets": {
+    "r": 0.06700739291782036,
+    "rho_same_events": 0.07650632719503639,
+    "paper_relative": 0.8758411934610252,
+    "n_events": 42
+   },
+   "seen_targets_zero_shot": {
+    "r": 0.0046468925883558524,
+    "rho_same_events": 0.07650632719503639,
+    "paper_relative": 0.06073867036525752,
+    "n_events": 42
+   }
+  },
+  "10": {
+   "few_shot": {
+    "r": 0.0486873704331802,
+    "rho_same_events": 0.1411458150738865,
+    "paper_relative": 0.34494377610624527,
+    "n_events": 1021
+   },
+   "zero_shot_same_events": {
+    "r": 0.058721017613676485,
+    "rho_same_events": 0.1411458150738865,
+    "paper_relative": 0.41603087971781116,
+    "n_events": 1021
+   },
+   "seen_targets": {
+    "r": 0.16868267603031137,
+    "rho_same_events": 0.1425566543399239,
+    "paper_relative": 1.1832676405837248,
+    "n_events": 80
+   },
+   "seen_targets_zero_shot": {
+    "r": 0.07763299718523807,
+    "rho_same_events": 0.1425566543399239,
+    "paper_relative": 0.5445764530929824,
+    "n_events": 80
+   }
+  },
+  "20": {
+   "few_shot": {
+    "r": 0.04246258866045044,
+    "rho_same_events": 0.13406980507553698,
+    "paper_relative": 0.3167199999770744,
+    "n_events": 749
+   },
+   "zero_shot_same_events": {
+    "r": 0.06297893360127675,
+    "rho_same_events": 0.13406980507553698,
+    "paper_relative": 0.4697473347245747,
+    "n_events": 749
+   },
+   "seen_targets": {
+    "r": 0.07835419804908667,
+    "rho_same_events": 0.12808811809824827,
+    "paper_relative": 0.611721049636986,
+    "n_events": 142
+   },
+   "seen_targets_zero_shot": {
+    "r": 0.09184160037122222,
+    "rho_same_events": 0.12808811809824827,
+    "paper_relative": 0.7170188908605586,
+    "n_events": 142
+   }
+  }
+ },
+ "variant": {
+  "tie": false,
+  "rank": 0,
+  "core": "linearsn",
+  "lr": 0.003,
+  "openloop": true,
+  "hidden": 128,
+  "genes": "all",
+  "prior": "cengen",
+  "holdout_fold": -1,
+  "fs_lr": 0.003,
+  "fs_steps": 400,
+  "fs_init": null,
+  "fs_anchor": 0.0,
+  "from_ckpt": ""
+ },
+ "auth": {
+  "r": 0.08792732304971129,
+  "rho": 0.18760526093896537
+ },
+ "seconds": 513.750786781311
+}

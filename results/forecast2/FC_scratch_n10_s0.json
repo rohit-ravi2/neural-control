@@ -1,0 +1,112 @@
+{
+ "args": {
+  "init": "scratch",
+  "pre_ckpt": "",
+  "n_train": 10,
+  "seed": 0,
+  "steps": 3000,
+  "hidden": 128,
+  "tag": "FC_scratch_n10_s0",
+  "lr": 0.003
+ },
+ "n_vocab": 73,
+ "train_loss_last500": 0.4938262055516243,
+ "test": {
+  "h2": {
+   "raw": {
+    "corr_change": 0.26922997370105717,
+    "skill_vs_persistence": -2.0093748569488525
+   },
+   "delta": {
+    "corr_change": 0.10755184603606145,
+    "skill_vs_persistence": -0.3946889638900757
+   },
+   "delta_scaled": {
+    "corr_change": 0.10755184598161584,
+    "skill_vs_persistence": 0.01121211051940918
+   },
+   "ar1": {
+    "corr_change": 0.284984844346572,
+    "skill_vs_persistence": 0.08115363121032715
+   },
+   "ar1_plus_delta": {
+    "corr_change": 0.28680805960738986,
+    "skill_vs_persistence": 0.08189481496810913
+   },
+   "beta": -0.031224193051457405,
+   "beta_delta": 0.16721639037132263
+  },
+  "h10": {
+   "raw": {
+    "corr_change": 0.4678613012407546,
+    "skill_vs_persistence": -0.07287073135375977
+   },
+   "delta": {
+    "corr_change": 0.2756655592996662,
+    "skill_vs_persistence": -0.007095456123352051
+   },
+   "delta_scaled": {
+    "corr_change": 0.2756655594562199,
+    "skill_vs_persistence": 0.0574459433555603
+   },
+   "ar1": {
+    "corr_change": 0.47824046394012004,
+    "skill_vs_persistence": 0.2268824577331543
+   },
+   "ar1_plus_delta": {
+    "corr_change": 0.4707411910926175,
+    "skill_vs_persistence": 0.21570003032684326
+   },
+   "beta": 0.3180622458457947,
+   "beta_delta": 0.7303962111473083
+  },
+  "h30": {
+   "raw": {
+    "corr_change": 0.5895789466419529,
+    "skill_vs_persistence": 0.26857614517211914
+   },
+   "delta": {
+    "corr_change": 0.35350468345685193,
+    "skill_vs_persistence": 0.051750779151916504
+   },
+   "delta_scaled": {
+    "corr_change": 0.353504683532686,
+    "skill_vs_persistence": 0.08084648847579956
+   },
+   "ar1": {
+    "corr_change": 0.6110989581056435,
+    "skill_vs_persistence": 0.3704472780227661
+   },
+   "ar1_plus_delta": {
+    "corr_change": 0.5932089314845534,
+    "skill_vs_persistence": 0.33224624395370483
+   },
+   "beta": 0.42844462394714355,
+   "beta_delta": 0.9029797315597534
+  },
+  "h60": {
+   "raw": {
+    "corr_change": 0.5916328916082023,
+    "skill_vs_persistence": 0.2959146499633789
+   },
+   "delta": {
+    "corr_change": 0.33467124969915213,
+    "skill_vs_persistence": 0.05190318822860718
+   },
+   "delta_scaled": {
+    "corr_change": 0.3346712495134494,
+    "skill_vs_persistence": 0.06885635852813721
+   },
+   "ar1": {
+    "corr_change": 0.6267147775708449,
+    "skill_vs_persistence": 0.3923366069793701
+   },
+   "ar1_plus_delta": {
+    "corr_change": 0.6085827757801214,
+    "skill_vs_persistence": 0.3479665517807007
+   },
+   "beta": 0.41775208711624146,
+   "beta_delta": 0.9354197978973389
+  }
+ }
+}

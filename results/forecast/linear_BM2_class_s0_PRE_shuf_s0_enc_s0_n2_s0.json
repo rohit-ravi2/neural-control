@@ -1,0 +1,56 @@
+{
+ "args": {
+  "n_train": 2,
+  "seed": 0,
+  "lags": 10,
+  "pcs": 0,
+  "basis_ckpt": "results/worm_pretrain_ctrl/M2_class_s0_PRE_shuf_s0.pt",
+  "basis_table": "enc",
+  "drive": "none"
+ },
+ "n_common": 57,
+ "self": {
+  "h2": {
+   "corr_change": 0.33995126620558364,
+   "skill_vs_persistence": 0.11502431249852574,
+   "alpha": 100
+  },
+  "h10": {
+   "corr_change": 0.48850433435826673,
+   "skill_vs_persistence": 0.2385797311716652,
+   "alpha": 100
+  },
+  "h30": {
+   "corr_change": 0.6058453425517029,
+   "skill_vs_persistence": 0.3667394484144245,
+   "alpha": 100
+  },
+  "h60": {
+   "corr_change": 0.6187728726903726,
+   "skill_vs_persistence": 0.3819952192886451,
+   "alpha": 100
+  }
+ },
+ "pop": {
+  "h2": {
+   "corr_change": 0.3249900459369626,
+   "skill_vs_persistence": 0.08460145983838863,
+   "alpha": 100
+  },
+  "h10": {
+   "corr_change": 0.46497684985697296,
+   "skill_vs_persistence": 0.19256237237866047,
+   "alpha": 100
+  },
+  "h30": {
+   "corr_change": 0.5767398033114597,
+   "skill_vs_persistence": 0.3183702625067397,
+   "alpha": 100
+  },
+  "h60": {
+   "corr_change": 0.5820695524812448,
+   "skill_vs_persistence": 0.3127666108022513,
+   "alpha": 100
+  }
+ }
+}

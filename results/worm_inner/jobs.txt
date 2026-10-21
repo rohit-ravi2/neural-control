@@ -1,0 +1,12 @@
+I_gru_neuron_l0 --scheme M1 --level neuron --core gru --openloop --resp-loss 0 --inner --seed 0 --n-cal
+I_gru_neuron_l0.1 --scheme M1 --level neuron --core gru --openloop --resp-loss 0.1 --inner --seed 0 --n-cal
+I_gru_neuron_l1 --scheme M1 --level neuron --core gru --openloop --resp-loss 1 --inner --seed 0 --n-cal
+I_gru_class_l0 --scheme M1 --level class --core gru --openloop --resp-loss 0 --inner --seed 0 --n-cal
+I_gru_class_l0.1 --scheme M1 --level class --core gru --openloop --resp-loss 0.1 --inner --seed 0 --n-cal
+I_gru_class_l1 --scheme M1 --level class --core gru --openloop --resp-loss 1 --inner --seed 0 --n-cal
+I_lineardiag_neuron_l0 --scheme M1 --level neuron --core lineardiag --openloop --resp-loss 0 --inner --seed 0 --n-cal
+I_lineardiag_neuron_l0.1 --scheme M1 --level neuron --core lineardiag --openloop --resp-loss 0.1 --inner --seed 0 --n-cal
+I_lineardiag_neuron_l1 --scheme M1 --level neuron --core lineardiag --openloop --resp-loss 1 --inner --seed 0 --n-cal
+I_lineardiag_class_l0 --scheme M1 --level class --core lineardiag --openloop --resp-loss 0 --inner --seed 0 --n-cal
+I_lineardiag_class_l0.1 --scheme M1 --level class --core lineardiag --openloop --resp-loss 0.1 --inner --seed 0 --n-cal
+I_lineardiag_class_l1 --scheme M1 --level class --core lineardiag --openloop --resp-loss 1 --inner --seed 0 --n-cal

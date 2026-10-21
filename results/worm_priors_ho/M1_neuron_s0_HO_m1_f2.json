@@ -1,0 +1,75 @@
+{
+ "scheme": "M1",
+ "level": "neuron",
+ "seed": 0,
+ "split": "holdout_list(exp_test.yml)+positional; recovers shipped test STAMs at r=0.70 (positional alone 0.47); paper split not exactly recoverable",
+ "n_keys": 205,
+ "params_core": 74496,
+ "params_tables": 39565,
+ "train_loss_last500": 0.06827766730636359,
+ "zero_shot": {
+  "r": 0.2649165121097251,
+  "rho_same_events": 0.1566466900795064,
+  "paper_relative": 1.6911721018507706,
+  "n_events": 1307
+ },
+ "few_shot": {},
+ "variant": {
+  "tie": false,
+  "rank": 0,
+  "core": "gru",
+  "lr": 0.003,
+  "resp_loss": 0.03,
+  "fold": -1,
+  "resp_blind": false,
+  "eval_blind": false,
+  "openloop": true,
+  "hidden": 128,
+  "genes": "all",
+  "prior": "cengen",
+  "holdout_fold": 2,
+  "fs_lr": 0.003,
+  "fs_steps": 400,
+  "fs_init": null,
+  "fs_anchor": 0.0,
+  "from_ckpt": ""
+ },
+ "auth": {
+  "r": 0.30141815533084765,
+  "rho": 0.18760526093896537,
+  "held_r": 0.196431170712244,
+  "held_rho": 0.14381546893079544,
+  "seen_r": 0.34338827726498844
+ },
+ "zero_shot_heldout_entries": {
+  "r": 0.1963528027297021,
+  "rho_same_events": 0.13441180970223207,
+  "paper_relative": 1.4608299907924045,
+  "n_events": 1307
+ },
+ "zero_shot_seen_entries": {
+  "r": 0.2944884877308407,
+  "rho_same_events": 0.16606688787590448,
+  "paper_relative": 1.7733124977382657,
+  "n_events": 1307
+ },
+ "holdout_classes": [
+  "ALA",
+  "AQR",
+  "AVA",
+  "AVD",
+  "AVE",
+  "DB",
+  "M4",
+  "MI",
+  "RIC",
+  "RID",
+  "RMD_DV",
+  "RME_DV",
+  "RME_LR",
+  "RMG",
+  "SMB",
+  "VA"
+ ],
+ "seconds": 985.1006259918213
+}

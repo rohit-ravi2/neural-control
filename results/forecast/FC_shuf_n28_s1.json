@@ -1,0 +1,50 @@
+{
+ "args": {
+  "init": "randi",
+  "pre_ckpt": "results/worm_pretrain_ctrl/M2_class_s1_PRE_shuf_s1.pt",
+  "n_train": 28,
+  "seed": 1,
+  "steps": 3000,
+  "hidden": 128,
+  "tag": "FC_shuf_n28_s1",
+  "lr": 0.003
+ },
+ "n_vocab": 105,
+ "train_loss_last500": 0.5641920917034149,
+ "test": {
+  "h2": {
+   "corr_change": 0.2808497379419161,
+   "skill_vs_persistence": -1.7649223804473877
+  },
+  "h10": {
+   "corr_change": 0.4828673778633518,
+   "skill_vs_persistence": 0.009778320789337158
+  },
+  "h30": {
+   "corr_change": 0.6090609203028846,
+   "skill_vs_persistence": 0.32967936992645264
+  },
+  "h60": {
+   "corr_change": 0.6175928324196258,
+   "skill_vs_persistence": 0.350163996219635
+  }
+ },
+ "ar1_baseline": {
+  "h2": {
+   "corr_change": 0.28880359473595674,
+   "skill_vs_persistence": 0.08336114883422852
+  },
+  "h10": {
+   "corr_change": 0.4799244051576091,
+   "skill_vs_persistence": 0.22942954301834106
+  },
+  "h30": {
+   "corr_change": 0.6121395442598486,
+   "skill_vs_persistence": 0.3733598589897156
+  },
+  "h60": {
+   "corr_change": 0.6279857147068194,
+   "skill_vs_persistence": 0.3943306803703308
+  }
+ }
+}
