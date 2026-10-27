@@ -6,3 +6,6 @@ h5py
 statsmodels
 pyyaml
 wormneuroatlas
+openpyxl
+python-igraph
+# pybdm  (only for witvliet_simplicity.py --complexity bdm)

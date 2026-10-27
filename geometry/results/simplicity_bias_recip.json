@@ -1,0 +1,1515 @@
+{
+ "mirror_pairs": 98,
+ "chem_size3": {
+  "RECIP": {
+   "n_motifs": 13,
+   "rho_enrich_logAut": 0.03578090447338244,
+   "partial|edges": -0.08384199410393915,
+   "partial|edges,mutual": -0.1465299203213084,
+   "partial_ci95": [
+    -0.7825860914049001,
+    0.7291173479623653
+   ],
+   "per_motif": [
+    {
+     "cls": 2,
+     "logAut": 0.6931471805599453,
+     "edges": 2,
+     "mutual": 0.0,
+     "log2_enrich": -0.17427638343289165
+    },
+    {
+     "cls": 4,
+     "logAut": 0.0,
+     "edges": 2,
+     "mutual": 0.0,
+     "log2_enrich": -0.041020334389617004
+    },
+    {
+     "cls": 5,
+     "logAut": 0.0,
+     "edges": 3,
+     "mutual": 1.0,
+     "log2_enrich": -0.32618079266383115
+    },
+    {
+     "cls": 6,
+     "logAut": 0.6931471805599453,
+     "edges": 2,
+     "mutual": 0.0,
+     "log2_enrich": -0.11747086809664821
+    },
+    {
+     "cls": 7,
+     "logAut": 0.0,
+     "edges": 3,
+     "mutual": 0.0,
+     "log2_enrich": 0.40018098886797904
+    },
+    {
+     "cls": 8,
+     "logAut": 0.6931471805599453,
+     "edges": 4,
+     "mutual": 1.0,
+     "log2_enrich": 1.034699939956512
+    },
+    {
+     "cls": 9,
+     "logAut": 0.0,
+     "edges": 3,
+     "mutual": 1.0,
+     "log2_enrich": -0.25974201583730794
+    },
+    {
+     "cls": 10,
+     "logAut": 0.6931471805599453,
+     "edges": 4,
+     "mutual": 2.0,
+     "log2_enrich": -0.6935192069441944
+    },
+    {
+     "cls": 11,
+     "logAut": 1.0986122886681098,
+     "edges": 3,
+     "mutual": 0.0,
+     "log2_enrich": -0.7839475261814041
+    },
+    {
+     "cls": 12,
+     "logAut": 0.0,
+     "edges": 4,
+     "mutual": 1.0,
+     "log2_enrich": -0.002681972358918994
+    },
+    {
+     "cls": 13,
+     "logAut": 0.6931471805599453,
+     "edges": 4,
+     "mutual": 1.0,
+     "log2_enrich": 1.2694962097914622
+    },
+    {
+     "cls": 14,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 2.0,
+     "log2_enrich": 1.0943033004004354
+    },
+    {
+     "cls": 15,
+     "logAut": 1.791759469228055,
+     "edges": 6,
+     "mutual": 3.0,
+     "log2_enrich": 2.1957345884293074
+    }
+   ]
+  }
+ },
+ "chem_size4": {
+  "RECIP": {
+   "n_motifs": 199,
+   "rho_enrich_logAut": 0.14041598450791531,
+   "partial|edges": 0.09043923159806426,
+   "partial|edges,mutual": 0.10317817825103258,
+   "partial_ci95": [
+    -0.060475639176504746,
+    0.270931120915813
+   ],
+   "per_motif": [
+    {
+     "cls": 3,
+     "logAut": 1.791759469228055,
+     "edges": 3,
+     "mutual": 0.0,
+     "log2_enrich": -0.316306961014918
+    },
+    {
+     "cls": 7,
+     "logAut": 0.6931471805599453,
+     "edges": 3,
+     "mutual": 0.0,
+     "log2_enrich": 0.006714353430755499
+    },
+    {
+     "cls": 8,
+     "logAut": 0.6931471805599453,
+     "edges": 4,
+     "mutual": 1.0,
+     "log2_enrich": -0.6140377781643935
+    },
+    {
+     "cls": 12,
+     "logAut": 0.0,
+     "edges": 3,
+     "mutual": 0.0,
+     "log2_enrich": -0.172359233177062
+    },
+    {
+     "cls": 13,
+     "logAut": 0.0,
+     "edges": 3,
+     "mutual": 0.0,
+     "log2_enrich": -0.41045417874159773
+    },
+    {
+     "cls": 14,
+     "logAut": 0.0,
+     "edges": 4,
+     "mutual": 0.0,
+     "log2_enrich": 0.12231459561306635
+    },
+    {
+     "cls": 16,
+     "logAut": 0.6931471805599453,
+     "edges": 4,
+     "mutual": 1.0,
+     "log2_enrich": -0.5889600442313
+    },
+    {
+     "cls": 17,
+     "logAut": 0.0,
+     "edges": 4,
+     "mutual": 0.0,
+     "log2_enrich": 0.010932155973104004
+    },
+    {
+     "cls": 18,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": 0.6308928105375026
+    },
+    {
+     "cls": 19,
+     "logAut": 1.3862943611198906,
+     "edges": 4,
+     "mutual": 0.0,
+     "log2_enrich": -0.028238664907876822
+    },
+    {
+     "cls": 20,
+     "logAut": 0.6931471805599453,
+     "edges": 5,
+     "mutual": 0.0,
+     "log2_enrich": 0.9610981810275439
+    },
+    {
+     "cls": 21,
+     "logAut": 1.3862943611198906,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": 2.2654758538922852
+    },
+    {
+     "cls": 24,
+     "logAut": 0.6931471805599453,
+     "edges": 3,
+     "mutual": 0.0,
+     "log2_enrich": -0.06803007822969401
+    },
+    {
+     "cls": 25,
+     "logAut": 0.0,
+     "edges": 4,
+     "mutual": 1.0,
+     "log2_enrich": -0.5785479596271599
+    },
+    {
+     "cls": 26,
+     "logAut": 0.6931471805599453,
+     "edges": 5,
+     "mutual": 2.0,
+     "log2_enrich": -1.1212266972999902
+    },
+    {
+     "cls": 29,
+     "logAut": 0.0,
+     "edges": 3,
+     "mutual": 0.0,
+     "log2_enrich": -0.11619898754622561
+    },
+    {
+     "cls": 30,
+     "logAut": 0.0,
+     "edges": 4,
+     "mutual": 0.0,
+     "log2_enrich": -1.2395965930353823
+    },
+    {
+     "cls": 31,
+     "logAut": 0.0,
+     "edges": 4,
+     "mutual": 1.0,
+     "log2_enrich": -0.629521914062405
+    },
+    {
+     "cls": 32,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": -0.35061875122055375
+    },
+    {
+     "cls": 35,
+     "logAut": 0.0,
+     "edges": 4,
+     "mutual": 0.0,
+     "log2_enrich": 0.650295399557808
+    },
+    {
+     "cls": 36,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": -0.2212967858407318
+    },
+    {
+     "cls": 37,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": 1.0255525293136534
+    },
+    {
+     "cls": 38,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": 0.5928664357839739
+    },
+    {
+     "cls": 40,
+     "logAut": 0.0,
+     "edges": 4,
+     "mutual": 1.0,
+     "log2_enrich": -0.1357004809462782
+    },
+    {
+     "cls": 41,
+     "logAut": 0.0,
+     "edges": 3,
+     "mutual": 0.0,
+     "log2_enrich": -0.21645054099501634
+    },
+    {
+     "cls": 42,
+     "logAut": 0.0,
+     "edges": 4,
+     "mutual": 0.0,
+     "log2_enrich": 0.2178724842685659
+    },
+    {
+     "cls": 43,
+     "logAut": 0.0,
+     "edges": 4,
+     "mutual": 1.0,
+     "log2_enrich": -0.40305323210123434
+    },
+    {
+     "cls": 44,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": 0.04559509114319203
+    },
+    {
+     "cls": 45,
+     "logAut": 0.0,
+     "edges": 4,
+     "mutual": 1.0,
+     "log2_enrich": -0.5011622827409271
+    },
+    {
+     "cls": 46,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 2.0,
+     "log2_enrich": -0.9881437323904063
+    },
+    {
+     "cls": 47,
+     "logAut": 0.0,
+     "edges": 4,
+     "mutual": 0.0,
+     "log2_enrich": -0.251142151621797
+    },
+    {
+     "cls": 48,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": 1.0423431324839876
+    },
+    {
+     "cls": 49,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": -0.15340318160337754
+    },
+    {
+     "cls": 50,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": 0.24301275606393605
+    },
+    {
+     "cls": 51,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": -0.5490447283768746
+    },
+    {
+     "cls": 52,
+     "logAut": 0.0,
+     "edges": 4,
+     "mutual": 0.0,
+     "log2_enrich": -0.4759227529978004
+    },
+    {
+     "cls": 53,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 0.0,
+     "log2_enrich": -0.8932438085839493
+    },
+    {
+     "cls": 54,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": -0.4515865053741164
+    },
+    {
+     "cls": 55,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": 0.17910594211807335
+    },
+    {
+     "cls": 56,
+     "logAut": 0.6931471805599453,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": 0.7345517841940484
+    },
+    {
+     "cls": 57,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": 0.5220109131974063
+    },
+    {
+     "cls": 58,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 0.0,
+     "log2_enrich": 0.07714235395414554
+    },
+    {
+     "cls": 59,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": 0.6836048469671596
+    },
+    {
+     "cls": 60,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": 1.08264507701178
+    },
+    {
+     "cls": 61,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": 1.6368143550417622
+    },
+    {
+     "cls": 63,
+     "logAut": 0.6931471805599453,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": 1.1457336194170107
+    },
+    {
+     "cls": 64,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": 0.664860453221459
+    },
+    {
+     "cls": 65,
+     "logAut": 0.6931471805599453,
+     "edges": 7,
+     "mutual": 3.0,
+     "log2_enrich": 1.5691741321047992
+    },
+    {
+     "cls": 66,
+     "logAut": 0.6931471805599453,
+     "edges": 4,
+     "mutual": 0.0,
+     "log2_enrich": 0.05180199880358802
+    },
+    {
+     "cls": 67,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 0.0,
+     "log2_enrich": 0.7540660795690611
+    },
+    {
+     "cls": 68,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": -0.39203579908795
+    },
+    {
+     "cls": 69,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": 0.6781400463807796
+    },
+    {
+     "cls": 70,
+     "logAut": 0.6931471805599453,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": 3.3344233858169887
+    },
+    {
+     "cls": 71,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": 0.19312463816606593
+    },
+    {
+     "cls": 72,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": 2.0091128952783017
+    },
+    {
+     "cls": 73,
+     "logAut": 0.6931471805599453,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": -0.6999511776199532
+    },
+    {
+     "cls": 74,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": 1.171747526195095
+    },
+    {
+     "cls": 75,
+     "logAut": 0.6931471805599453,
+     "edges": 8,
+     "mutual": 3.0,
+     "log2_enrich": 2.804425642403641
+    },
+    {
+     "cls": 76,
+     "logAut": 1.791759469228055,
+     "edges": 3,
+     "mutual": 0.0,
+     "log2_enrich": 0.00925425735880841
+    },
+    {
+     "cls": 77,
+     "logAut": 0.0,
+     "edges": 4,
+     "mutual": 0.0,
+     "log2_enrich": -0.1286637294739345
+    },
+    {
+     "cls": 78,
+     "logAut": 0.6931471805599453,
+     "edges": 5,
+     "mutual": 0.0,
+     "log2_enrich": -0.09654098035145262
+    },
+    {
+     "cls": 79,
+     "logAut": 0.6931471805599453,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": 0.11167983565791613
+    },
+    {
+     "cls": 80,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 0.0,
+     "log2_enrich": -0.4073448334795734
+    },
+    {
+     "cls": 81,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": 0.14529972153092088
+    },
+    {
+     "cls": 82,
+     "logAut": 0.6931471805599453,
+     "edges": 5,
+     "mutual": 0.0,
+     "log2_enrich": -0.12793880193584176
+    },
+    {
+     "cls": 83,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 0.0,
+     "log2_enrich": 0.8418323866538133
+    },
+    {
+     "cls": 84,
+     "logAut": 0.6931471805599453,
+     "edges": 7,
+     "mutual": 1.0,
+     "log2_enrich": 1.5696408670236934
+    },
+    {
+     "cls": 85,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": 0.3661469718708522
+    },
+    {
+     "cls": 86,
+     "logAut": 0.6931471805599453,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": 0.40076031814732843
+    },
+    {
+     "cls": 87,
+     "logAut": 1.0986122886681098,
+     "edges": 6,
+     "mutual": 0.0,
+     "log2_enrich": -0.7073196867011515
+    },
+    {
+     "cls": 88,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 1.0,
+     "log2_enrich": 0.9162461524260997
+    },
+    {
+     "cls": 89,
+     "logAut": 0.6931471805599453,
+     "edges": 7,
+     "mutual": 1.0,
+     "log2_enrich": 2.2552110736627844
+    },
+    {
+     "cls": 90,
+     "logAut": 0.0,
+     "edges": 8,
+     "mutual": 2.0,
+     "log2_enrich": 2.3882020967132664
+    },
+    {
+     "cls": 91,
+     "logAut": 1.791759469228055,
+     "edges": 9,
+     "mutual": 3.0,
+     "log2_enrich": 3.6682153954031294
+    },
+    {
+     "cls": 92,
+     "logAut": 0.6931471805599453,
+     "edges": 4,
+     "mutual": 1.0,
+     "log2_enrich": -0.1400911186473623
+    },
+    {
+     "cls": 93,
+     "logAut": 0.6931471805599453,
+     "edges": 5,
+     "mutual": 2.0,
+     "log2_enrich": -0.8758280411510446
+    },
+    {
+     "cls": 94,
+     "logAut": 1.791759469228055,
+     "edges": 6,
+     "mutual": 3.0,
+     "log2_enrich": -1.709778609697531
+    },
+    {
+     "cls": 95,
+     "logAut": 0.0,
+     "edges": 4,
+     "mutual": 0.0,
+     "log2_enrich": -0.43450694859679123
+    },
+    {
+     "cls": 96,
+     "logAut": 0.6931471805599453,
+     "edges": 4,
+     "mutual": 1.0,
+     "log2_enrich": -0.21965880416907602
+    },
+    {
+     "cls": 97,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": -0.2814213289119699
+    },
+    {
+     "cls": 98,
+     "logAut": 0.0,
+     "edges": 4,
+     "mutual": 1.0,
+     "log2_enrich": -0.43528718402667355
+    },
+    {
+     "cls": 99,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": -1.101380114922883
+    },
+    {
+     "cls": 100,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 2.0,
+     "log2_enrich": -0.8804839931740345
+    },
+    {
+     "cls": 101,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": -0.811186134124757
+    },
+    {
+     "cls": 102,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": -0.4483881388849656
+    },
+    {
+     "cls": 103,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": 0.4528216870770948
+    },
+    {
+     "cls": 104,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": 0.8608267926650857
+    },
+    {
+     "cls": 105,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": -0.08427263123565615
+    },
+    {
+     "cls": 106,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": -0.740898932853425
+    },
+    {
+     "cls": 107,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": 0.15245976138781753
+    },
+    {
+     "cls": 108,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 3.0,
+     "log2_enrich": -0.11661160872225837
+    },
+    {
+     "cls": 109,
+     "logAut": 0.6931471805599453,
+     "edges": 5,
+     "mutual": 0.0,
+     "log2_enrich": -0.23424934725033222
+    },
+    {
+     "cls": 110,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": -0.3330313844636897
+    },
+    {
+     "cls": 111,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": -1.0193921209438803
+    },
+    {
+     "cls": 112,
+     "logAut": 0.6931471805599453,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": -0.6403083245056749
+    },
+    {
+     "cls": 113,
+     "logAut": 0.6931471805599453,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": -0.7151987788722874
+    },
+    {
+     "cls": 114,
+     "logAut": 0.6931471805599453,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": -0.34348228873987036
+    },
+    {
+     "cls": 115,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": 0.6790376820139532
+    },
+    {
+     "cls": 116,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": 0.7842372779841441
+    },
+    {
+     "cls": 117,
+     "logAut": 0.6931471805599453,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": 1.224527987569951
+    },
+    {
+     "cls": 118,
+     "logAut": 0.6931471805599453,
+     "edges": 8,
+     "mutual": 3.0,
+     "log2_enrich": 1.4479534341133478
+    },
+    {
+     "cls": 119,
+     "logAut": 0.6931471805599453,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": 0.6726489402258488
+    },
+    {
+     "cls": 121,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 2.0,
+     "log2_enrich": -0.4719022377325239
+    },
+    {
+     "cls": 122,
+     "logAut": 0.6931471805599453,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": 0.7626039730243646
+    },
+    {
+     "cls": 123,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": -0.520480779255159
+    },
+    {
+     "cls": 124,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": 0.7269838944601409
+    },
+    {
+     "cls": 125,
+     "logAut": 0.6931471805599453,
+     "edges": 6,
+     "mutual": 3.0,
+     "log2_enrich": -1.310261164614591
+    },
+    {
+     "cls": 126,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": -0.4787456285876203
+    },
+    {
+     "cls": 127,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 3.0,
+     "log2_enrich": 0.25345358149623975
+    },
+    {
+     "cls": 128,
+     "logAut": 1.3862943611198906,
+     "edges": 4,
+     "mutual": 0.0,
+     "log2_enrich": -1.3739523949664785
+    },
+    {
+     "cls": 129,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 0.0,
+     "log2_enrich": -1.0010444307625173
+    },
+    {
+     "cls": 130,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 1.0,
+     "log2_enrich": -1.1535118261094952
+    },
+    {
+     "cls": 131,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": -0.5437575249395743
+    },
+    {
+     "cls": 132,
+     "logAut": 0.6931471805599453,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": -0.8397999796742468
+    },
+    {
+     "cls": 133,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": -0.6920107533810512
+    },
+    {
+     "cls": 134,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": 0.3117886301730549
+    },
+    {
+     "cls": 135,
+     "logAut": 0.6931471805599453,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": -0.7513519392206525
+    },
+    {
+     "cls": 136,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": 0.60842520787709
+    },
+    {
+     "cls": 137,
+     "logAut": 0.6931471805599453,
+     "edges": 8,
+     "mutual": 3.0,
+     "log2_enrich": 1.373306934754834
+    },
+    {
+     "cls": 138,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": -0.07736261289001674
+    },
+    {
+     "cls": 139,
+     "logAut": 0.6931471805599453,
+     "edges": 7,
+     "mutual": 3.0,
+     "log2_enrich": 1.7025014254917434
+    },
+    {
+     "cls": 140,
+     "logAut": 0.6931471805599453,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": 0.3350340497774405
+    },
+    {
+     "cls": 141,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 3.0,
+     "log2_enrich": 0.21217628800890018
+    },
+    {
+     "cls": 142,
+     "logAut": 0.6931471805599453,
+     "edges": 8,
+     "mutual": 4.0,
+     "log2_enrich": 0.9266161461047018
+    },
+    {
+     "cls": 143,
+     "logAut": 0.0,
+     "edges": 5,
+     "mutual": 0.0,
+     "log2_enrich": -0.6755969154685848
+    },
+    {
+     "cls": 144,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": -0.09753451098171871
+    },
+    {
+     "cls": 145,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": -0.13349255843891658
+    },
+    {
+     "cls": 146,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": -1.2635411378256922
+    },
+    {
+     "cls": 147,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": -0.43981167921330716
+    },
+    {
+     "cls": 148,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": 0.23584654469788696
+    },
+    {
+     "cls": 149,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": -0.6923846852332302
+    },
+    {
+     "cls": 150,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": 0.45840500858836386
+    },
+    {
+     "cls": 151,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": 0.667996881445416
+    },
+    {
+     "cls": 152,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": 1.6429997367719
+    },
+    {
+     "cls": 153,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": -0.16032892266859183
+    },
+    {
+     "cls": 154,
+     "logAut": 0.0,
+     "edges": 8,
+     "mutual": 3.0,
+     "log2_enrich": 1.0866052436766063
+    },
+    {
+     "cls": 155,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": -0.5751970580222091
+    },
+    {
+     "cls": 156,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": -0.20584249833621854
+    },
+    {
+     "cls": 157,
+     "logAut": 0.6931471805599453,
+     "edges": 6,
+     "mutual": 2.0,
+     "log2_enrich": -0.04635097859098667
+    },
+    {
+     "cls": 158,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": -0.10853047363577516
+    },
+    {
+     "cls": 159,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 3.0,
+     "log2_enrich": -1.0901068218149372
+    },
+    {
+     "cls": 160,
+     "logAut": 0.0,
+     "edges": 8,
+     "mutual": 3.0,
+     "log2_enrich": 0.4929806423354002
+    },
+    {
+     "cls": 161,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": 0.12544074462852436
+    },
+    {
+     "cls": 162,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": -0.0024641615886759473
+    },
+    {
+     "cls": 163,
+     "logAut": 0.0,
+     "edges": 8,
+     "mutual": 3.0,
+     "log2_enrich": 1.4567370028943665
+    },
+    {
+     "cls": 164,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": 1.1897459991994896
+    },
+    {
+     "cls": 165,
+     "logAut": 0.0,
+     "edges": 8,
+     "mutual": 3.0,
+     "log2_enrich": 1.6669558729184637
+    },
+    {
+     "cls": 166,
+     "logAut": 0.0,
+     "edges": 8,
+     "mutual": 3.0,
+     "log2_enrich": 1.2663597483974143
+    },
+    {
+     "cls": 167,
+     "logAut": 0.0,
+     "edges": 9,
+     "mutual": 4.0,
+     "log2_enrich": 2.2998403881342746
+    },
+    {
+     "cls": 168,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 0.0,
+     "log2_enrich": -0.5866299595664066
+    },
+    {
+     "cls": 169,
+     "logAut": 0.0,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": -0.4767357190067907
+    },
+    {
+     "cls": 170,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 1.0,
+     "log2_enrich": 0.2612426551840045
+    },
+    {
+     "cls": 171,
+     "logAut": 1.0986122886681098,
+     "edges": 6,
+     "mutual": 0.0,
+     "log2_enrich": -0.5674579413103983
+    },
+    {
+     "cls": 172,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 1.0,
+     "log2_enrich": 0.5077922421038794
+    },
+    {
+     "cls": 173,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 1.0,
+     "log2_enrich": 1.267149063367743
+    },
+    {
+     "cls": 174,
+     "logAut": 0.0,
+     "edges": 8,
+     "mutual": 2.0,
+     "log2_enrich": 1.2336526965663235
+    },
+    {
+     "cls": 175,
+     "logAut": 0.6931471805599453,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": -0.8176726860353211
+    },
+    {
+     "cls": 176,
+     "logAut": 1.3862943611198906,
+     "edges": 6,
+     "mutual": 1.0,
+     "log2_enrich": 2.2462997415713186
+    },
+    {
+     "cls": 177,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": 1.1725425802773948
+    },
+    {
+     "cls": 178,
+     "logAut": 0.6931471805599453,
+     "edges": 8,
+     "mutual": 3.0,
+     "log2_enrich": 0.6442691080181598
+    },
+    {
+     "cls": 179,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 1.0,
+     "log2_enrich": -0.4613380543833503
+    },
+    {
+     "cls": 180,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 1.0,
+     "log2_enrich": -0.2125016718148006
+    },
+    {
+     "cls": 181,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": 0.5051732131897612
+    },
+    {
+     "cls": 182,
+     "logAut": 0.0,
+     "edges": 8,
+     "mutual": 2.0,
+     "log2_enrich": 0.8139979585588751
+    },
+    {
+     "cls": 183,
+     "logAut": 0.0,
+     "edges": 8,
+     "mutual": 2.0,
+     "log2_enrich": 1.1263992136143957
+    },
+    {
+     "cls": 184,
+     "logAut": 0.6931471805599453,
+     "edges": 7,
+     "mutual": 1.0,
+     "log2_enrich": 2.8803516746530264
+    },
+    {
+     "cls": 185,
+     "logAut": 0.0,
+     "edges": 8,
+     "mutual": 2.0,
+     "log2_enrich": 1.6431957663066163
+    },
+    {
+     "cls": 186,
+     "logAut": 0.0,
+     "edges": 8,
+     "mutual": 2.0,
+     "log2_enrich": 3.1213925374027673
+    },
+    {
+     "cls": 187,
+     "logAut": 0.0,
+     "edges": 9,
+     "mutual": 3.0,
+     "log2_enrich": 2.4681219701591113
+    },
+    {
+     "cls": 188,
+     "logAut": 0.6931471805599453,
+     "edges": 7,
+     "mutual": 1.0,
+     "log2_enrich": 0.8315554451123185
+    },
+    {
+     "cls": 189,
+     "logAut": 0.0,
+     "edges": 7,
+     "mutual": 2.0,
+     "log2_enrich": 0.3458046052174483
+    },
+    {
+     "cls": 190,
+     "logAut": 0.6931471805599453,
+     "edges": 8,
+     "mutual": 2.0,
+     "log2_enrich": 1.805377360063827
+    },
+    {
+     "cls": 191,
+     "logAut": 0.0,
+     "edges": 8,
+     "mutual": 2.0,
+     "log2_enrich": 0.8591517412722678
+    },
+    {
+     "cls": 192,
+     "logAut": 0.0,
+     "edges": 8,
+     "mutual": 3.0,
+     "log2_enrich": 0.33981284877906565
+    },
+    {
+     "cls": 193,
+     "logAut": 0.0,
+     "edges": 8,
+     "mutual": 2.0,
+     "log2_enrich": 1.2901479575215675
+    },
+    {
+     "cls": 194,
+     "logAut": 0.0,
+     "edges": 9,
+     "mutual": 3.0,
+     "log2_enrich": 2.2338469410311634
+    },
+    {
+     "cls": 195,
+     "logAut": 0.6931471805599453,
+     "edges": 9,
+     "mutual": 3.0,
+     "log2_enrich": 2.240760270533724
+    },
+    {
+     "cls": 196,
+     "logAut": 1.3862943611198906,
+     "edges": 8,
+     "mutual": 2.0,
+     "log2_enrich": 3.6945348831087266
+    },
+    {
+     "cls": 197,
+     "logAut": 0.0,
+     "edges": 9,
+     "mutual": 3.0,
+     "log2_enrich": 2.9877849496900053
+    },
+    {
+     "cls": 198,
+     "logAut": 0.6931471805599453,
+     "edges": 10,
+     "mutual": 4.0,
+     "log2_enrich": 3.8565312930720195
+    },
+    {
+     "cls": 199,
+     "logAut": 0.6931471805599453,
+     "edges": 8,
+     "mutual": 3.0,
+     "log2_enrich": 2.848480449741115
+    },
+    {
+     "cls": 200,
+     "logAut": 0.6931471805599453,
+     "edges": 8,
+     "mutual": 3.0,
+     "log2_enrich": 1.5132341490281003
+    },
+    {
+     "cls": 201,
+     "logAut": 0.0,
+     "edges": 8,
+     "mutual": 3.0,
+     "log2_enrich": 0.37938723197322266
+    },
+    {
+     "cls": 202,
+     "logAut": 0.0,
+     "edges": 9,
+     "mutual": 4.0,
+     "log2_enrich": 2.2093617535451555
+    },
+    {
+     "cls": 203,
+     "logAut": 2.0794415416798357,
+     "edges": 8,
+     "mutual": 4.0,
+     "log2_enrich": -1.63440360859852
+    },
+    {
+     "cls": 204,
+     "logAut": 0.6931471805599453,
+     "edges": 9,
+     "mutual": 4.0,
+     "log2_enrich": 1.0715866056717198
+    },
+    {
+     "cls": 205,
+     "logAut": 1.3862943611198906,
+     "edges": 10,
+     "mutual": 5.0,
+     "log2_enrich": 2.983837257391748
+    },
+    {
+     "cls": 206,
+     "logAut": 0.0,
+     "edges": 8,
+     "mutual": 2.0,
+     "log2_enrich": 0.6726958726547065
+    },
+    {
+     "cls": 207,
+     "logAut": 1.0986122886681098,
+     "edges": 9,
+     "mutual": 3.0,
+     "log2_enrich": 1.738970730056583
+    },
+    {
+     "cls": 208,
+     "logAut": 1.3862943611198906,
+     "edges": 8,
+     "mutual": 2.0,
+     "log2_enrich": -0.32653734813995183
+    },
+    {
+     "cls": 209,
+     "logAut": 0.0,
+     "edges": 9,
+     "mutual": 3.0,
+     "log2_enrich": 1.579034188718482
+    },
+    {
+     "cls": 210,
+     "logAut": 0.6931471805599453,
+     "edges": 9,
+     "mutual": 3.0,
+     "log2_enrich": 3.012174713946102
+    },
+    {
+     "cls": 211,
+     "logAut": 0.0,
+     "edges": 9,
+     "mutual": 3.0,
+     "log2_enrich": 2.593303277537496
+    },
+    {
+     "cls": 212,
+     "logAut": 0.0,
+     "edges": 10,
+     "mutual": 4.0,
+     "log2_enrich": 3.802553935793783
+    },
+    {
+     "cls": 213,
+     "logAut": 1.791759469228055,
+     "edges": 9,
+     "mutual": 3.0,
+     "log2_enrich": 5.0523508431867965
+    },
+    {
+     "cls": 214,
+     "logAut": 0.6931471805599453,
+     "edges": 10,
+     "mutual": 4.0,
+     "log2_enrich": 4.568879592387675
+    },
+    {
+     "cls": 215,
+     "logAut": 0.6931471805599453,
+     "edges": 10,
+     "mutual": 4.0,
+     "log2_enrich": 3.5711443042995206
+    },
+    {
+     "cls": 216,
+     "logAut": 0.6931471805599453,
+     "edges": 11,
+     "mutual": 5.0,
+     "log2_enrich": 5.346833436650183
+    },
+    {
+     "cls": 217,
+     "logAut": 3.1780538303479458,
+     "edges": 12,
+     "mutual": 6.0,
+     "log2_enrich": 6.767844907050178
+    }
+   ]
+  }
+ }
+}

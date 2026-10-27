@@ -117,6 +117,44 @@ row? I compared CeNGEN single-cell expression profiles with connectome features,
 I read this as a tie: both expression and wiring carry real information about an unseen neuron's causal map, and the
 MLP gap reflects how that model used the connectome features, not a difference in the information itself.
 
+### 6. Nerve-ring membrane contact predicts the causal map beyond distance and synapses
+
+Head synapses form in the nerve-ring neuropil, so the distance between cell bodies is not the geometry that wiring
+actually happens in. I added a third structural layer, membrane contact between neurites in the nerve ring (log contact
+area from the adult and L4 nerve-ring adjacency tables), and let three layers compete for the causal map: soma distance
+D, contact C, and synapses A (log chemical + log gap). The statistic is a partial Spearman correlation with the
+authors'-estimator map over all 110 animals (12,966 responder/target pairs among the 125 cells covered by the contact
+tables), `geometry/contact_geometry.py` → `geometry/results/contact_geometry.json`, adult contact:
+
+| partial correlation with the causal map | value |
+|---|---|
+| contact, given distance and synapses | **0.040** (p = 0.003, distance-preserving null) |
+| synapses, given distance | 0.009 |
+| synapses, given distance and contact | −0.015 |
+| soma distance, given contact and synapses | 0.291 |
+
+So once you know which neurites touch, the synaptic connectome adds nothing to the prediction, while contact still
+adds signal that a distance-preserving reshuffle of the contact matrix (300 permutations; p = 0.003 is the smallest
+attainable) does not reproduce. Ninety-one percent of synaptically connected pairs are in contact, but only 52% of
+contacting pairs have an annotated synapse. Cell-body distance itself keeps most of its predictive power (0.29), which is
+the soma-proximity effect discussed in section 4.
+
+The contact effect replicates on the L4 contact table (0.038, p = 0.003) and on the Randi et al. ΔF/F atlas from
+`wormneuroatlas` (0.052, p = 0.003); on Creamer's shipped test matrices alone it is 0.024 (p = 0.066). Stress tests in
+`geometry/contact_stress.py` → `geometry/results/contact_stress.json`: it survives a degree-preserving rewiring of the
+contact graph (0.040, p = 0.005), per-neuron main effects (total contact and leave-one-out row/column means; 0.034,
+p = 0.005) and dropping same-class pairs (0.038, p = 0.005). Restricted to synapse-free pairs it is weaker (0.025,
+p = 0.035), and in far-field synapse-free pairs it is not detectable. It also adds a small, significant amount beyond the
+best identity model's cross-validated prediction (0.026, p = 0.015; `geometry/contact_vs_model.py`). Whether the signal
+needs neuropeptide release is not resolved: in *unc-31* animals the effect is the same size as in wild type on the
+same pairs, with a CI that is wide on both sides (`geometry/results/contact_unc31.json`).
+
+Other scripts in `geometry/` are exploratory and I am not making claims from them here: `mask_fit.py` (linear
+propagation fit with W restricted to synapse, contact, nearest-neighbour or random supports), `contact_knn.py`
+(contact profiles as a prior for unseen neurons), `wiring_economy.py` (wire-length-optimal placement vs the atlas), and
+`simplicity_bias.py` / `witvliet_simplicity.py` (motif enrichment vs motif symmetry in the connectome and across the
+eight Witvliet et al. EM datasets).
+
 ## Other analyses in the repo
 
 These are in `src/` with their outputs in `results/`; they are exploratory and I am not making headline claims from them.
@@ -147,6 +185,10 @@ python obs_baselines.py          # among other things, adds the all-110-animal t
 CVDIR=worm_causal_final python cv_combine.py
 python near_far_cc.py            # -> results/near_far_cc.json
 python knn_prior.py              # -> results/knn_prior.json (CPU, no training)
+cd ..
+python geometry/contact_geometry.py   # -> geometry/results/contact_geometry.json (CPU, a few minutes)
+python geometry/contact_stress.py     # -> geometry/results/contact_stress.json
+# contact_vs_model.py also needs the CV prediction files from the worm_causal_final run above
 ```
 
 The 80/30 split is fixed in `results/phase0/split.json`. Each script's docstring gives its command line and output, and
@@ -168,6 +210,7 @@ src/reproduce_creamer.py, reconcile_*.py   reproduction and reconciliation with 
 src/near_far*.py, near_dissect.py, dist_shuffle.py   locality analyses
 src/knn_*.py            non-parametric priors for unseen neurons
 results/                JSON outputs of every script and training run (checkpoints not included)
+geometry/               nerve-ring contact geometry analyses; outputs in geometry/results/
 ```
 
 ## Data
@@ -180,6 +223,12 @@ None of the data is in this repo.
 - Randi et al. 2023 segmentations (per-animal positions, NeuroPAL confidences): DANDI 001075, into
   `data/randi2023_dandi001075_seg/`.
 - CeNGEN thresholded expression (threshold 2, `021821_medium_threshold2.csv`): https://www.cengen.org, into `data/cengen/`.
+- Nerve-ring membrane contact ("Adult and L4 nerve ring neighbors.xlsx", the nerve-ring adjacency data of
+  Moyle et al. 2021 and Brittin et al. 2021, distributed through WormWiring, https://wormwiring.org), into
+  `data/connectome/nerve_ring_neighbors/`. Only the `geometry/` scripts need it.
+- Witvliet et al. 2021 developmental connectomes (8 datasets, https://nemanode.org), as one combined edge list
+  `data/connectome/witvliet2020/witvliet_combined_edges.csv` with columns `pre, post, type, synapses, source_file` (one row per
+  edge per dataset); only `geometry/witvliet_simplicity.py` uses it.
 - Atanas et al. 2023 whole-brain recordings (only for the `obs_*` / `forecast*` analyses): WormWideWeb / DANDI 000776,
   extracted to `data/atanas2023_nwb_extract/`.
 
@@ -188,4 +237,7 @@ None of the data is in this repo.
 - Randi, F., Sharma, A. K., Dvali, S., Leifer, A. M. (2023). Neural signal propagation atlas of *Caenorhabditis elegans*. *Nature*.
 - Creamer, M. S., Leifer, A. M., Pillow, J. W. (2025). Bridging the gap between the connectome and whole-brain activity in *C. elegans*.
 - Taylor, S. R. et al. (2021). Molecular topography of an entire nervous system (CeNGEN). *Cell*.
+- Moyle, M. W. et al. (2021). Structural and developmental principles of neuropil assembly in *C. elegans*. *Nature* 591, 99–104.
+- Brittin, C. A. et al. (2021). A multi-scale brain map derived from whole-brain volumetric reconstructions. *Nature* 591, 105–110.
+- Witvliet, D. et al. (2021). Connectomes across development reveal principles of brain maturation. *Nature* 596, 257–261.
 - Atanas, A. A. et al. (2023). Brain-wide representations of behavior spanning multiple timescales and states in *C. elegans*. *Cell*.

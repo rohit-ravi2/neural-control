@@ -1,0 +1,86 @@
+{
+ "witvliet_2020_7_stable_not_strong": {
+  "n": 158,
+  "edges": 208,
+  "mutual_dyads": 5,
+  "DEG": {
+   "n_motifs": 28,
+   "partial|edges,mutual": 0.3371136306911566,
+   "ci95": [
+    -0.060962065483778714,
+    0.6068635951930269
+   ]
+  },
+  "RECIP": {
+   "n_motifs": 29,
+   "partial|edges,mutual": 0.14502020930291445,
+   "ci95": [
+    -0.2194354621353519,
+    0.4414335201181185
+   ]
+  }
+ },
+ "witvliet_2020_7_strong_not_stable": {
+  "n": 166,
+  "edges": 208,
+  "mutual_dyads": 2,
+  "DEG": {
+   "n_motifs": 26,
+   "partial|edges,mutual": 0.33052919751270277,
+   "ci95": [
+    0.029906527414055372,
+    0.5746031733940458
+   ]
+  },
+  "RECIP": {
+   "n_motifs": 27,
+   "partial|edges,mutual": 0.033106847675392466,
+   "ci95": [
+    -0.3381989672683436,
+    0.36384234649637204
+   ]
+  }
+ },
+ "witvliet_2020_8_stable_not_strong": {
+  "n": 149,
+  "edges": 210,
+  "mutual_dyads": 4,
+  "DEG": {
+   "n_motifs": 32,
+   "partial|edges,mutual": -0.23460814578247216,
+   "ci95": [
+    -0.5660210315549977,
+    0.13972987084411875
+   ]
+  },
+  "RECIP": {
+   "n_motifs": 32,
+   "partial|edges,mutual": -0.15439399319609587,
+   "ci95": [
+    -0.4826969477472296,
+    0.19349932558571217
+   ]
+  }
+ },
+ "witvliet_2020_8_strong_not_stable": {
+  "n": 164,
+  "edges": 210,
+  "mutual_dyads": 7,
+  "DEG": {
+   "n_motifs": 42,
+   "partial|edges,mutual": 0.09688281547482473,
+   "ci95": [
+    -0.2176226983046888,
+    0.45410591973528563
+   ]
+  },
+  "RECIP": {
+   "n_motifs": 40,
+   "partial|edges,mutual": 0.1452924545526249,
+   "ci95": [
+    -0.1820451647172529,
+    0.4069315270874839
+   ]
+  }
+ }
+}
